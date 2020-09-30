@@ -1,0 +1,18 @@
+{
+  "chromeWebSecurity": false,
+  "baseUrl": "http://localhost:3000/",
+  "video": false,
+  "viewportWidth": 375,
+  "viewportHeight": 812,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "reports/junit/cypress.xml",
+    "toConsole": false
+  },
+  "env": {
+    "forceAPIRecording": false,
+    "apiHost": "http://api-wyp.test/api",
+    "stubApiPatterns": "/.*",
+    "apiMaxWaitingTime": 60000
+  }
+}

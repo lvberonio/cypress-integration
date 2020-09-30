@@ -1,0 +1,54 @@
+FROM debian:buster-slim
+MAINTAINER Nizam, nizam@incube8.sg
+
+ENV DEBIAN_FRONTEND noninteractive
+#ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn
+
+# Update and install packages
+RUN apt-get update && apt-get install -y apt-utils && \
+  apt-get install -y sudo systemd curl git wget rsync \
+  gnupg gnupg2 openssh-server openssh-client apt-transport-https \
+  software-properties-common python-pip python-selinux python-mysqldb \
+  build-essential gcc g++ make autoconf libc-dev pkg-config zip unzip
+
+# Install ansible
+ENV localSource="/etc/apt/sources.list"
+ENV ansibleSource="deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main"
+ENV ansiblePubKey="93C4A3FD7BB9C367"
+RUN echo $ansibleSource >> $localSource && \
+  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys $ansiblePubKey && \
+  apt-get update && apt-get install -y ansible
+RUN umask 022 && pip install ansible==2.7.11 redis && \
+  sed -i 's/^stdout_callback=.*/stdout_callback = yaml/g' /etc/ansible/ansible.cfg
+
+RUN sed -i 's/.*StrictHostKeyChecking.*/StrictHostKeyChecking\ no/g' /etc/ssh/ssh_config
+
+# Setup ssh key for repo clone
+RUN mkdir -p /root/.ssh
+COPY deploy/environments/docker/key/repo_key /root/.ssh/id_rsa
+COPY deploy/environments/docker/key/repo_key.pub /root/.ssh/id_rsa.pub
+COPY deploy/environments/docker/key/repo_key.pub /root/.ssh/authorized_keys
+COPY deploy/environments/docker/key/config /root/.ssh/config
+RUN chown -R root.root /root/.ssh
+RUN chmod 600 /root/.ssh/id_rsa
+RUN chmod 640 /root/.ssh/id_rsa.pub
+RUN chmod 640 /root/.ssh/authorized_keys
+RUN chmod 640 /root/.ssh/config
+
+# Copy ansible playbooks
+COPY deploy/requirements_localcdn.yml /etc/ansible/requirements_localcdn.yml
+COPY deploy/build-dockercdn.yml /etc/ansible/build-dockercdn.yml
+
+# Install common packages
+RUN sudo apt update && \
+  ANSIBLE_FORCE_COLOR=1 ansible-galaxy install -p /etc/ansible/roles \
+  --force -r /etc/ansible/requirements_localcdn.yml && \
+  ANSIBLE_FORCE_COLOR=1 ansible-playbook /etc/ansible/build-dockercdn.yml
+
+# Set UTC timezone
+RUN ln -sf /usr/share/zoneinfo/PST8PDT /etc/localtime
+
+# Install NodeJS
+RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && \
+  sudo apt-get update && sudo apt-get install -y nodejs && \
+  npm install -g yarn && npm install -g dotenv

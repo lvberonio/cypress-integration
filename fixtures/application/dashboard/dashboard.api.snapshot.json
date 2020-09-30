@@ -1,0 +1,3451 @@
+{
+  "Dashboard page: Dashboard should log in": {
+    "timestamp": "2020-09-14T08:28:03.446Z",
+    "records": [
+      {
+        "url": "",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": "jsData=%7B%22ttst%22%3A92.1449999732431%2C%22ifov%22%3Afalse%2C%22wdifts%22%3Afalse%2C%22wdifrm%22%3Afalse%2C%22wdif%22%3Atrue%2C%22br_h%22%3A812%2C%22br_w%22%3A375%2C%22br_oh%22%3A792%2C%22br_ow%22%3A1080%2C%22rs_h%22%3A1050%2C%22rs_w%22%3A1680%2C%22rs_cd%22%3A30%2C%22phe%22%3Afalse%2C%22nm%22%3Afalse%2C%22jsf%22%3Afalse%2C%22ua%22%3A%22Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_6)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F85.0.4183.102%20Safari%2F537.36%22%2C%22lg%22%3A%22en-GB%22%2C%22pr%22%3A2%2C%22hc%22%3A8%2C%22ars_h%22%3A986%2C%22ars_w%22%3A1680%2C%22tz%22%3A-480%2C%22str_ss%22%3Atrue%2C%22str_ls%22%3Atrue%2C%22str_idb%22%3Atrue%2C%22str_odb%22%3Atrue%2C%22plgod%22%3Afalse%2C%22plg%22%3A3%2C%22pltod%22%3Afalse%2C%22lb%22%3Afalse%2C%22eva%22%3A33%2C%22lo%22%3Afalse%2C%22ts_mtp%22%3A0%2C%22ts_tec%22%3Afalse%2C%22ts_tsa%22%3Afalse%2C%22vnd%22%3A%22Google%20Inc.%22%2C%22bid%22%3A%22NA%22%2C%22mmt%22%3A%22application%2Fpdf%2Capplication%2Fx-google-chrome-pdf%2Capplication%2Fx-nacl%2Capplication%2Fx-pnacl%22%2C%22plu%22%3A%22Chrome%20PDF%20Plugin%2CChrome%20PDF%20Viewer%2CNative%20Client%22%2C%22hdn%22%3Afalse%2C%22awe%22%3Afalse%2C%22geb%22%3Afalse%2C%22dat%22%3Afalse%2C%22med%22%3A%22defined%22%2C%22aco%22%3A%22probably%22%2C%22acots%22%3Afalse%2C%22acmp%22%3A%22probably%22%2C%22acmpts%22%3Atrue%2C%22acw%22%3A%22probably%22%2C%22acwts%22%3Afalse%2C%22acma%22%3A%22maybe%22%2C%22acmats%22%3Afalse%2C%22acaa%22%3A%22probably%22%2C%22acaats%22%3Atrue%2C%22ac3%22%3A%22%22%2C%22ac3ts%22%3Afalse%2C%22acf%22%3A%22probably%22%2C%22acfts%22%3Afalse%2C%22acmp4%22%3A%22maybe%22%2C%22acmp4ts%22%3Afalse%2C%22acmp3%22%3A%22probably%22%2C%22acmp3ts%22%3Afalse%2C%22acwm%22%3A%22maybe%22%2C%22acwmts%22%3Afalse%2C%22ocpt%22%3Afalse%2C%22vco%22%3A%22probably%22%2C%22vcots%22%3Afalse%2C%22vch%22%3A%22probably%22%2C%22vchts%22%3Atrue%2C%22vcw%22%3A%22probably%22%2C%22vcwts%22%3Atrue%2C%22vc3%22%3A%22maybe%22%2C%22vc3ts%22%3Afalse%2C%22vcmp%22%3A%22%22%2C%22vcmpts%22%3Afalse%2C%22vcq%22%3A%22%22%2C%22vcqts%22%3Afalse%2C%22vc1%22%3A%22probably%22%2C%22vc1ts%22%3Afalse%2C%22dvm%22%3A8%2C%22sqt%22%3Afalse%2C%22so%22%3A%22landscape-primary%22%2C%22wbd%22%3Atrue%2C%22wbdm%22%3Atrue%2C%22wdw%22%3Atrue%2C%22cokys%22%3A%22bG9hZFRpbWVzY3NpYXBwL%3D%22%2C%22ecpc%22%3Afalse%2C%22lgs%22%3Atrue%2C%22lgsod%22%3Afalse%2C%22bcda%22%3Atrue%2C%22idn%22%3Atrue%2C%22capi%22%3Afalse%2C%22svde%22%3Afalse%2C%22vpbq%22%3Atrue%2C%22xr%22%3Atrue%2C%22bgav%22%3Atrue%2C%22rri%22%3Atrue%2C%22idfr%22%3Atrue%2C%22ancs%22%3Atrue%2C%22inlc%22%3Atrue%2C%22cgca%22%3Atrue%2C%22inlf%22%3Atrue%2C%22tecd%22%3Atrue%2C%22sbct%22%3Atrue%2C%22aflt%22%3Atrue%2C%22rgp%22%3Atrue%2C%22bint%22%3Atrue%2C%22spwn%22%3Afalse%2C%22emt%22%3Afalse%2C%22bfr%22%3Afalse%2C%22dbov%22%3Afalse%2C%22glvd%22%3A%22Intel%20Inc.%22%2C%22glrd%22%3A%22Intel(R)%20Iris(TM)%20Plus%20Graphics%20655%22%2C%22tagpu%22%3A51.69500000192784%2C%22prm%22%3Atrue%2C%22tzp%22%3A%22Asia%2FSingapore%22%2C%22cvs%22%3Atrue%2C%22usb%22%3A%22defined%22%7D&events=%5B%5D&eventCounters=%5B%5D&jsType=ch&cid=null&ddk=FF67B137128198F1E230CB13A87BE8&Referer=https%253A%252F%252Flocalhost%253A3000%252F__%252F&request=%252Fdashboard&responsePage=origin&ddv=4.1.14"
+        },
+        "response": {
+          "body": {
+            "status": 200,
+            "cookie": "datadome=AS~nXgc9ae1MQ~jdSFAjkWJ-.I~~zLVhTiX70xtEptPY91ZRCLyyldbIqBAYXfapILc8UmNnwwA7ABY8J8CxOYzoWmmCjqq.BKmhu6urg-; Max-Age=31536000; Domain=localhost; Path=/; SameSite=Lax"
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": {
+            "websocket": true,
+            "origins": [
+              "*:*"
+            ],
+            "cookie_needed": false,
+            "entropy": 34746955
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": ""
+        },
+        "response": {
+          "body": "1d"
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": ""
+        },
+        "response": {
+          "body": "1gcom.sg"
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": {
+            "window_width": 375,
+            "window_height": 812,
+            "url": "https://localhost:3000/login",
+            "r_value": 1,
+            "is_vpv": false,
+            "session_only": false,
+            "rec_value": 1,
+            "user_id": "354244ab-ebb6-5c4a-9f5a-478ad61c94be"
+          }
+        },
+        "response": {
+          "body": {
+            "accept_language": "en-GB,en-US;q=0.9,en;q=0.8",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36",
+            "success": true
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": {
+            "login": "saul@domain.com",
+            "password": "asdasd",
+            "gaClientId": "841692973.1600072080"
+          }
+        },
+        "response": {
+          "body": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS13eXAudGVzdC9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTYwMDA3MjA4MSwiZXhwIjoxNjAwMDc1NjgxLCJuYmYiOjE2MDAwNzIwODEsImp0aSI6IlZRRmlhZWpZOVRFSTR3QmgiLCJzdWIiOjYsInBydiI6ImM4ZWUxZmM4OWU3NzVlYzRjNzM4NjY3ZTViZTE3YTU5MGI2ZDQwZmMiLCJ1c2VyIjp7ImlkIjo2LCJrZXkiOiI2OFhXMHhrSkgxTnBSUGNXdVNTSXQ1elRHa1Y5ZnQxZSIsInRva2VuX2hhc2giOiJleUpwZGlJNklrSlFOa3BqVldSaldGaFpkVGh4VGsxd2VHNW5PVUU5UFNJc0luWmhiSFZsSWpvaWNURnllWGhRTkVZeVZreDRhM2tyY2xaVVoyZHJOWGRvWVV4bFduZElaRE15WkZFMmEzRllabWx6UVQwaUxDSnRZV01pT2lJMFlURTBOR1JqTmpNeFpUTTJNbU15TmpFMlpqaGtZbVkyTVRZNFlXRmhZVEUyT0Rsak1tSTVOakV3TlRVek9HTmtZVGt6TXpSaFpEQmxZVGM1WWpVNEluMD0iLCJoYXNoSWQiOiJFbGRYUGs3THhRQXp5MDNScU9wOWdXZTgifX0.w1UdpLzGx1dRzyKzvrNKey80KFdRHf05JfutPlMqQOI"
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": {}
+        },
+        "response": {
+          "body": {
+            "data": {
+              "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+              "username": "saul",
+              "is_premium": true,
+              "is_admin": false,
+              "has_photo": false,
+              "email": "saul@domain.com",
+              "email_confirmed": true,
+              "unread_messages": 0,
+              "new_favorites": 0,
+              "membership_expires": {
+                "date": "2020-12-31 20:28:22",
+                "timezone_type": 3,
+                "timezone": "America/Los_Angeles"
+              },
+              "profile_complete": true,
+              "is_activated": true,
+              "is_approved": true,
+              "credits": 1880,
+              "offer_counts": {
+                "total": 0,
+                "new": 0,
+                "pending": 4,
+                "accepted": 0,
+                "rejected": 0
+              },
+              "can_make_offer": true,
+              "needs_account_password": false,
+              "cannot_make_offer_reasons": null,
+              "photo_complete": true,
+              "under_review": [],
+              "direct_s3_upload": true,
+              "recaptchav3_result": null,
+              "currency": {
+                "data": {
+                  "name": "dollar",
+                  "label": "&#36;",
+                  "label_unicode": "36",
+                  "code": "USD",
+                  "initial": ""
+                }
+              },
+              "profile": {
+                "data": {
+                  "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                  "sex": "Male",
+                  "gender": "Male",
+                  "account_type": "Generous",
+                  "looking_male": false,
+                  "looking_female": true,
+                  "age": 22,
+                  "age_min": 18,
+                  "age_max": 72,
+                  "income": 103,
+                  "net_worth": "$10 million - $50 million",
+                  "height": "6'3\" (191cm)",
+                  "body_type": "A Few Extra Pounds",
+                  "eye_color": "Black",
+                  "hair_color": "Dark Brown",
+                  "country": "United States",
+                  "region": "Nevada",
+                  "city": "Las Vegas",
+                  "travel": false,
+                  "seeking": "Necessitatibus perspiciatis aut quis odio voluptatem totam rerum atque mollitia beatae nam iusto ipsum adipisci velit est odit ratione molestiae commodi quos assumenda et rem ipsum nihil in repudiandae assumenda omnis dolorem soluta ullam non facilis dolorem maxime est.",
+                  "passport": false,
+                  "dating_just_dating": false,
+                  "dating_friendship": false,
+                  "dating_marriage": false,
+                  "dating_married": true,
+                  "dating_adult": true,
+                  "dating_mentorship": false,
+                  "occupation": "Sit Lorem",
+                  "description": "Et deleniti nisi et qui quam autem rem reiciendis at velit accusantium in illo numquam voluptas atque voluptatem quia nobis ut voluptas est unde sit molestiae rerum pariatur quasi qui ut voluptatem nesciunt ratione eum ea ipsum qui quia eius et quisquam ea est possimus a nulla.",
+                  "education": "Graduate Degree",
+                  "children": 2,
+                  "smoking": 2,
+                  "drinking": 2,
+                  "travel_with_me": false,
+                  "travel_to_me": false,
+                  "travel_to_you": false,
+                  "viewed_count": 405,
+                  "photos_count": 5,
+                  "private_photos_count": 5,
+                  "approved_public_photos_count": 0,
+                  "required_fields_completed": true,
+                  "online": true,
+                  "celebrity": false,
+                  "background_check": false,
+                  "verifiedbycam": false,
+                  "last_login_location": null,
+                  "last_login_location_full": null,
+                  "last_access_location_full": null,
+                  "created_at": {
+                    "date": "2019-10-17 14:06:47",
+                    "timezone_type": 3,
+                    "timezone": "America/Los_Angeles"
+                  },
+                  "completed_at": 1597631351,
+                  "submitted_at": 1597723460,
+                  "monetized_at": 1597631356,
+                  "completed_date": "08/16/2020 19:29:11",
+                  "submitted_date": "08/17/2020 21:04:20",
+                  "monetized_date": "08/16/2020 19:29:16",
+                  "is_preapprove": false,
+                  "last_activity_dt": {
+                    "date": "2020-09-14 01:27:37",
+                    "timezone_type": 3,
+                    "timezone": "America/Los_Angeles"
+                  },
+                  "last_activity_at": {
+                    "date": "2020-09-14 01:27:37",
+                    "timezone_type": 3,
+                    "timezone": "America/Los_Angeles"
+                  },
+                  "onboarding_details": [],
+                  "avatar": {
+                    "data": {
+                      "id": 120,
+                      "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                      "path": "EbrSJdmY11PAEu5H",
+                      "status": "approved",
+                      "private": true,
+                      "is_avatar": true,
+                      "urls": {
+                        "resized": "https://devimages.whatsyourprice.com/dev/images/resized/EbrSJdmY11PAEu5H.jpg",
+                        "profile": "https://devimages.whatsyourprice.com/dev/images/profile/EbrSJdmY11PAEu5H.jpg",
+                        "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/EbrSJdmY11PAEu5H.jpg",
+                        "720px": "https://devimages.whatsyourprice.com/dev/images/720px/EbrSJdmY11PAEu5H.jpg",
+                        "410px": "https://devimages.whatsyourprice.com/dev/images/410px/EbrSJdmY11PAEu5H.jpg",
+                        "820px": "https://devimages.whatsyourprice.com/dev/images/820px/EbrSJdmY11PAEu5H.jpg"
+                      },
+                      "created_dt": {
+                        "date": "2020-09-08 23:37:56",
+                        "timezone_type": 3,
+                        "timezone": "America/Los_Angeles"
+                      }
+                    }
+                  },
+                  "body_types": {
+                    "data": [
+                      {
+                        "id": 4,
+                        "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                        "type_id": 1,
+                        "type": "body_types",
+                        "value": 3,
+                        "description": "Average"
+                      },
+                      {
+                        "id": 6,
+                        "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                        "type_id": 1,
+                        "type": "body_types",
+                        "value": 5,
+                        "description": "A Few Extra Pounds"
+                      }
+                    ]
+                  }
+                }
+              },
+              "photo": {
+                "data": [
+                  {
+                    "id": 120,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "EbrSJdmY11PAEu5H",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/EbrSJdmY11PAEu5H.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/EbrSJdmY11PAEu5H.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/EbrSJdmY11PAEu5H.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/EbrSJdmY11PAEu5H.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/EbrSJdmY11PAEu5H.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/EbrSJdmY11PAEu5H.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-09-08 23:37:56",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  },
+                  {
+                    "id": 113,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "54Qqj2iZyyqTNwjq",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": false,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/54Qqj2iZyyqTNwjq.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/54Qqj2iZyyqTNwjq.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/54Qqj2iZyyqTNwjq.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/54Qqj2iZyyqTNwjq.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/54Qqj2iZyyqTNwjq.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/54Qqj2iZyyqTNwjq.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-08-30 01:22:46",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  },
+                  {
+                    "id": 114,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "ElR2DzV1nhVs47XW",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": false,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/ElR2DzV1nhVs47XW.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/ElR2DzV1nhVs47XW.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/ElR2DzV1nhVs47XW.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/ElR2DzV1nhVs47XW.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/ElR2DzV1nhVs47XW.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/ElR2DzV1nhVs47XW.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-08-30 01:23:29",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  },
+                  {
+                    "id": 118,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "51mKVQBkt3WYsQXR",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": false,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/51mKVQBkt3WYsQXR.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/51mKVQBkt3WYsQXR.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/51mKVQBkt3WYsQXR.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/51mKVQBkt3WYsQXR.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/51mKVQBkt3WYsQXR.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/51mKVQBkt3WYsQXR.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-08-30 01:26:13",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  },
+                  {
+                    "id": 119,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "lB3ocfuiGGhNSZHf",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": false,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/lB3ocfuiGGhNSZHf.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/lB3ocfuiGGhNSZHf.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/lB3ocfuiGGhNSZHf.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/lB3ocfuiGGhNSZHf.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/lB3ocfuiGGhNSZHf.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/lB3ocfuiGGhNSZHf.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-09-08 23:37:33",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  }
+                ]
+              }
+            },
+            "meta": {
+              "debug": {
+                "__meta": {
+                  "id": "X968607e72b343d66f958abba92b4a02b",
+                  "datetime": "2020-09-14 01:28:01",
+                  "utime": 1600072081.946465,
+                  "method": "GET",
+                  "uri": "/api/auth/user?include=profile,photo",
+                  "ip": "127.0.0.1"
+                },
+                "php": {
+                  "version": "7.4.10",
+                  "interface": "fpm-fcgi"
+                },
+                "messages": {
+                  "count": 0,
+                  "messages": []
+                },
+                "time": {
+                  "start": 1600072081.911233,
+                  "end": 1600072081.946484,
+                  "duration": 0.03525114059448242,
+                  "duration_str": "35.25ms",
+                  "measures": [
+                    {
+                      "label": "Booting",
+                      "start": 1600072081.911233,
+                      "relative_start": 0,
+                      "end": 1600072081.935697,
+                      "relative_end": 1600072081.935697,
+                      "duration": 0.024464130401611328,
+                      "duration_str": "24.46ms",
+                      "params": [],
+                      "collector": null
+                    },
+                    {
+                      "label": "Application",
+                      "start": 1600072081.93579,
+                      "relative_start": 0.024557113647460938,
+                      "end": 1600072081.946486,
+                      "relative_end": 0.0000019073486328125,
+                      "duration": 0.010695934295654297,
+                      "duration_str": "10.7ms",
+                      "params": [],
+                      "collector": null
+                    }
+                  ]
+                },
+                "memory": {
+                  "peak_usage": 5839128,
+                  "peak_usage_str": "5.57MB"
+                },
+                "exceptions": {
+                  "count": 0,
+                  "exceptions": []
+                },
+                "views": {
+                  "nb_templates": 0,
+                  "templates": []
+                },
+                "route": {
+                  "uri": "GET api/auth/user",
+                  "middleware": "api, auth:api, logActiveUser, checkKey, checkForIpChange, versionCheck",
+                  "controller": "App\\Http\\Controllers\\Api\\Auth\\AuthController@user",
+                  "namespace": "App\\Http\\Controllers\\Api\\Auth",
+                  "prefix": "api/auth",
+                  "where": [],
+                  "as": "api.auth.user",
+                  "file": "app/Http/Controllers/Api/Auth/AuthController.php:492-499"
+                },
+                "queries": {
+                  "nb_statements": 1,
+                  "nb_failed_statements": 0,
+                  "accumulated_duration": 0.00315,
+                  "accumulated_duration_str": "3.15ms",
+                  "statements": [
+                    {
+                      "sql": "select * from `account_logs` where `account_logs`.`account_id` = 6 and `account_logs`.`account_id` is not null order by `created_dt` desc, `created_dt` desc limit 1",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00315,
+                      "duration_str": "3.15ms",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    }
+                  ]
+                },
+                "swiftmailer_mails": {
+                  "count": 0,
+                  "mails": []
+                }
+              },
+              "request": {
+                "id": "X968607e72b343d66f958abba92b4a02b",
+                "datetime": "2020-09-14 01:28:01",
+                "utime": 1600072081.946465,
+                "method": "GET",
+                "uri": "/api/auth/user?include=profile,photo",
+                "ip": "127.0.0.1"
+              }
+            }
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "get",
+        "status": 200,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": "/*\n * Welcome to your Workbox-powered service worker!\n *\n * You'll need to register this file in your web app and you should\n * disable HTTP caching for this file too.\n * See https://goo.gl/nhQhGp\n *\n * The rest of the code is auto-generated. Please don't update this file\n * directly; instead, make changes to your Workbox build configuration\n * and re-run your build process.\n * See https://goo.gl/2aRDsh\n */\nimportScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');\n\nworkbox.core.skipWaiting();\nworkbox.core.clientsClaim();\n\n/**\n * The workboxSW.precacheAndRoute() method efficiently caches and responds to\n * requests for URLs in the manifest.\n * See https://goo.gl/S9QRab\n */\n\n// added cache of index.html to lessen initial load on PWA\nself.addEventListener('install', function(e) {\n  const filesToCache = ['/index.html'];\n  const cacheName = 'app-cache';\n  e.waitUntil(\n    caches.open(cacheName).then(function(cache) {\n      return cache.addAll(filesToCache);\n    })\n  );\n});\n\n// @TODO: Check potential use of activate event\n// self.addEventListener('activate', event => {\n//   console.log('[ServiceWorker] V1 now ready to handle fetches!');\n// });\n\nworkbox.routing.registerRoute(\n  new RegExp('/|jpg|jpeg|png|html|js|css|woff|woff2|ttf'),\n  new workbox.strategies.StaleWhileRevalidate({\n    cacheName: 'app-cache',\n  })\n);\n\nworkbox.routing.registerRoute(({ url }) => url.pathname.indexOf('/api/') > -1, new workbox.strategies.NetworkFirst());\n\n// catch offline api calls through service worker\nself.addEventListener('fetch', event => {\n  if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin') {\n    return;\n  }\n  if (event.request.method === 'POST' || event.request.method === 'DELETE') {\n    event.respondWith(\n      fetch(event.request).catch(err => {\n        console.error('REQUEST FAILED: Service worker response', err);\n      })\n    );\n  }\n});\n\nself.__precacheManifest = [].concat(self.__precacheManifest || []);\nworkbox.precaching.precacheAndRoute(self.__precacheManifest || []);\n\nconst responseParser = response => {\n  const type = response.type;\n  const action = response.action;\n  const data =\n    typeof response.data === 'string' && response.data.length > 0 ? JSON.parse(response.data) : response.data;\n\n  const getTitle = () => {\n    if (data.profile.gender === 'Male') {\n      return 'him';\n    }\n\n    return 'her';\n  };\n\n  const getPronoun = () => {\n    if (data.profile.gender === 'Male') {\n      return 'He';\n    }\n\n    return 'She';\n  };\n\n  const getMailAction = () => {\n    if (data.profile.gender === 'Male') {\n      return 'Your turn';\n    }\n\n    return \"That's what she said\";\n  };\n\n  const getOfferAction = () => {\n    if (data.profile.account_type === 'Generous') {\n      return 'Send a message';\n    }\n\n    return 'Unlock the conversation';\n  };\n\n  const getOfferNotification = () => {\n    const isGenerous = data.profile.account_type === 'Generous';\n    const userName = data.account.username;\n    switch (action) {\n      case 'receive':\n        return {\n          label: `${userName} sent you ${!isGenerous ? 'a request' : 'an offer'}!`,\n          action: 'Check it out',\n          link: `/profile/${data.account.hash_id}`,\n        };\n      case 'suggest':\n        return {\n          label: `${getPronoun()}'s interested!`,\n          action: `Check ${getTitle()} out`,\n          link: `/profile/${data.account.hash_id}`,\n        };\n      case 'accept':\n        return {\n          label: `${!isGenerous ? 'Offer' : 'Request'} Accepted!`,\n          action: getOfferAction(),\n          link: `/mail/${data.account.hash_id}`,\n        };\n    }\n  };\n\n  const getMailNotification = () => {\n    switch (action) {\n      case 'receive':\n        return {\n          label: 'New message!',\n          action: getMailAction(),\n          link: `/mail/${data.account.hash_id}`,\n        };\n      case 'unlock':\n        return {\n          label: 'Conversation Unlocked!',\n          action: 'Send a message',\n          link: `/mail/${data.account.hash_id}`,\n        };\n    }\n  };\n\n  const getFavoritedNotification = () => {\n    switch (action) {\n      case 'receive':\n        return {\n          label: `You've been favorited!`,\n          action: `Check ${getTitle()} out`,\n          link: `/profile/${data.account.hash_id}`,\n        };\n      default:\n        break;\n    }\n  };\n\n  const getWelcomeNotification = () => {\n    return {\n      label: 'Subscribed to Push Notifications',\n      action: 'You can disable this in the settings',\n      link: `/dashboard`,\n    };\n  };\n\n  switch (type) {\n    case 'favorites':\n      return getFavoritedNotification();\n    case 'offers':\n      return getOfferNotification();\n    case 'mail':\n      return getMailNotification();\n    case 'welcome':\n      return getWelcomeNotification();\n    default:\n      return null;\n  }\n};\n\n/*\nconst allowedDesktopNotificationTypes = ['mail'];\n\nself.addEventListener('message', function(event) {\n  const { title, message, link } = event.data;\n\n  if (event.data && event.data.type === 'SKIP_WAITING') {\n    self.skipWaiting();\n  }\n\n  self.registration.showNotification(title, {\n    body: message,\n    icon: 'https://dwytm1vo3v31f.cloudfront.net/icons/favicon.ico',\n    data: {\n      link,\n    },\n  });\n});\n*/\n\nself.addEventListener('notificationclick', function(event) {\n  event.notification.close();\n  const urlToOpen = new URL(event.notification.data.link, self.location.origin);\n  const promiseChain = clients\n    .matchAll({\n      type: 'window',\n      includeUncontrolled: true,\n    })\n    .then(windowClients => {\n      let matchingClient = null;\n\n      for (let i = 0; i < windowClients.length; i++) {\n        const windowClient = windowClients[i];\n        const windowClientOrigin = new URL(windowClients[i], self.location.origin).origin;\n        if (windowClientOrigin === urlToOpen.origin) {\n          matchingClient = windowClient;\n          break;\n        }\n      }\n\n      if (matchingClient) {\n        // For now, focus on same tab dashboard, push having issues if starting from other pages\n        // because service worker registration is not called other than main screen\n        return matchingClient.focus();\n\n        // @TODO: research for a fix on calling service worker registration on other pages\n        // return matchingClient.focus().then(client => client.navigate(urlToOpen.href));\n      } else {\n        return clients.openWindow(urlToOpen.origin);\n      }\n    });\n\n  event.waitUntil(promiseChain);\n});\n\nself.addEventListener('push', event => {\n  return clients.matchAll({ type: 'window' }).then(clients => {\n    for (let i = 0; i < clients.length; ++i) {\n      if (clients[i].visibilityState === 'visible') return; // there is a visible window\n    }\n\n    // continue with showing a notification\n    if (event.data) {\n      const eventJsonData = event.data.json();\n      const responseData = responseParser(eventJsonData);\n      const siteIcon =\n        eventJsonData.site_id && eventJsonData.site_id === 'fd'\n          ? 'https://s3.amazonaws.com/whatsyourprice/prod/fd/images/icons/FD_favicon_32x32.png'\n          : 'https://dwytm1vo3v31f.cloudfront.net/icons/favicon.ico';\n      if (responseData) {\n        const promiseChain = self.registration\n          .showNotification(responseData.label, {\n            icon: siteIcon,\n            body: responseData.action,\n            tag: `notify-user-${Math.floor(Math.random() * 999)}`,\n            data: {\n              link: responseData.link,\n            },\n          })\n          .then(() => {\n            console.log('Notification Success');\n          })\n          .catch(error => {\n            console.log('Something went wrong', error);\n          });\n        event.waitUntil(promiseChain);\n      }\n    }\n  });\n});\n"
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": {}
+        },
+        "response": {
+          "body": {
+            "data": [
+              {
+                "id": 104810,
+                "username": "zoey11",
+                "activity": "view",
+                "created_dt": "2020-09-01 02:24:36",
+                "profile": {
+                  "data": {
+                    "hash_id": "aXdyBZx98JOLde25NYVKQEML",
+                    "sex": "Female",
+                    "gender": "Female",
+                    "account_type": "Attractive",
+                    "looking_male": true,
+                    "looking_female": false,
+                    "age": 22,
+                    "age_min": 25,
+                    "age_max": 66,
+                    "income": 104,
+                    "net_worth": "US$250,001 - $500,000",
+                    "height": "5'8\" (173cm)",
+                    "body_type": "Slim / Slender",
+                    "eye_color": "Gray",
+                    "hair_color": "Other",
+                    "country": "United States",
+                    "region": "Nevada",
+                    "city": "Las Vegas",
+                    "travel": false,
+                    "seeking": "Et non consequatur dolore perferendis omnis praesentium tenetur quo quia quia occaecati voluptatem laboriosam dolorum sunt non impedit numquam quae quibusdam est atque quaerat reprehenderit consectetur tempora expedita hic qui voluptatum neque asperiores ea fuga.",
+                    "passport": false,
+                    "dating_just_dating": true,
+                    "dating_friendship": false,
+                    "dating_marriage": false,
+                    "dating_married": true,
+                    "dating_adult": true,
+                    "dating_mentorship": true,
+                    "occupation": "Sequi excepturi ipsa a quis.",
+                    "description": "Nihil enim fugiat repellat quo delectus unde ad facilis non tenetur sequi maxime officia nisi repellendus ut ut labore rerum commodi esse at aut saepe cum quo nihil corrupti minus quia quod aspernatur totam iure id et quo maxime voluptas sit quidem illo recusandae enim dicta temporibus nulla ab sit ipsam quos dolores quaerat est.",
+                    "education": "Graduate Degree",
+                    "children": 2,
+                    "smoking": 2,
+                    "drinking": 2,
+                    "travel_with_me": false,
+                    "travel_to_me": false,
+                    "travel_to_you": false,
+                    "viewed_count": 831,
+                    "photos_count": 1,
+                    "private_photos_count": 0,
+                    "approved_public_photos_count": 1,
+                    "required_fields_completed": false,
+                    "online": false,
+                    "celebrity": false,
+                    "background_check": false,
+                    "verifiedbycam": false,
+                    "last_login_location": "US",
+                    "last_login_location_full": "United States",
+                    "last_access_location_full": null,
+                    "created_at": {
+                      "date": "2020-05-05 10:39:19",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    },
+                    "completed_at": 1597631352,
+                    "submitted_at": null,
+                    "monetized_at": 1597631356,
+                    "completed_date": "08/16/2020 19:29:12",
+                    "submitted_date": null,
+                    "monetized_date": "08/16/2020 19:29:16",
+                    "is_preapprove": false,
+                    "last_activity_dt": {
+                      "date": "2020-09-01 03:13:14",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    },
+                    "last_activity_at": {
+                      "date": "2020-09-01 03:13:14",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    },
+                    "onboarding_details": [],
+                    "avatar": {
+                      "data": {
+                        "id": 20,
+                        "hash_id": "my1WR8M2zJm6Dag5GPLe7j6K",
+                        "path": "aplhvf9km6fs6xme",
+                        "status": "approved",
+                        "private": false,
+                        "is_avatar": true,
+                        "urls": {
+                          "resized": "https://devimages.whatsyourprice.com/dev/images/resized/aplhvf9km6fs6xme.jpg",
+                          "profile": "https://devimages.whatsyourprice.com/dev/images/profile/aplhvf9km6fs6xme.jpg",
+                          "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/aplhvf9km6fs6xme.jpg",
+                          "720px": "https://devimages.whatsyourprice.com/dev/images/720px/aplhvf9km6fs6xme.jpg",
+                          "410px": "https://devimages.whatsyourprice.com/dev/images/410px/aplhvf9km6fs6xme.jpg",
+                          "820px": "https://devimages.whatsyourprice.com/dev/images/820px/aplhvf9km6fs6xme.jpg"
+                        }
+                      }
+                    },
+                    "body_types": {
+                      "data": []
+                    }
+                  }
+                },
+                "detail": {
+                  "data": {
+                    "id": 125,
+                    "hash_id": "aXdyBZx98JOLde25NYVKQEML",
+                    "to_account_hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "hidden": false,
+                    "created_at": "2020-09-01 02:24:36",
+                    "other_account": {
+                      "data": {
+                        "hash_id": "aXdyBZx98JOLde25NYVKQEML",
+                        "username": "zoey11",
+                        "is_premium": false,
+                        "is_admin": false,
+                        "has_photo": true,
+                        "is_favorite": null,
+                        "is_blocked": null,
+                        "currency": {
+                          "data": {
+                            "name": "dollar",
+                            "label": "&#36;",
+                            "label_unicode": "36",
+                            "code": "USD",
+                            "initial": ""
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": 104810,
+                "username": "zoey11",
+                "activity": "accept_offer",
+                "created_dt": "2020-08-16 19:29:16",
+                "profile": {
+                  "data": {
+                    "hash_id": "aXdyBZx98JOLde25NYVKQEML",
+                    "sex": "Female",
+                    "gender": "Female",
+                    "account_type": "Attractive",
+                    "looking_male": true,
+                    "looking_female": false,
+                    "age": 22,
+                    "age_min": 25,
+                    "age_max": 66,
+                    "income": 104,
+                    "net_worth": "US$250,001 - $500,000",
+                    "height": "5'8\" (173cm)",
+                    "body_type": "Slim / Slender",
+                    "eye_color": "Gray",
+                    "hair_color": "Other",
+                    "country": "United States",
+                    "region": "Nevada",
+                    "city": "Las Vegas",
+                    "travel": false,
+                    "seeking": "Et non consequatur dolore perferendis omnis praesentium tenetur quo quia quia occaecati voluptatem laboriosam dolorum sunt non impedit numquam quae quibusdam est atque quaerat reprehenderit consectetur tempora expedita hic qui voluptatum neque asperiores ea fuga.",
+                    "passport": false,
+                    "dating_just_dating": true,
+                    "dating_friendship": false,
+                    "dating_marriage": false,
+                    "dating_married": true,
+                    "dating_adult": true,
+                    "dating_mentorship": true,
+                    "occupation": "Sequi excepturi ipsa a quis.",
+                    "description": "Nihil enim fugiat repellat quo delectus unde ad facilis non tenetur sequi maxime officia nisi repellendus ut ut labore rerum commodi esse at aut saepe cum quo nihil corrupti minus quia quod aspernatur totam iure id et quo maxime voluptas sit quidem illo recusandae enim dicta temporibus nulla ab sit ipsam quos dolores quaerat est.",
+                    "education": "Graduate Degree",
+                    "children": 2,
+                    "smoking": 2,
+                    "drinking": 2,
+                    "travel_with_me": false,
+                    "travel_to_me": false,
+                    "travel_to_you": false,
+                    "viewed_count": 831,
+                    "photos_count": 1,
+                    "private_photos_count": 0,
+                    "approved_public_photos_count": 1,
+                    "required_fields_completed": false,
+                    "online": false,
+                    "celebrity": false,
+                    "background_check": false,
+                    "verifiedbycam": false,
+                    "last_login_location": "US",
+                    "last_login_location_full": "United States",
+                    "last_access_location_full": null,
+                    "created_at": {
+                      "date": "2020-05-05 10:39:19",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    },
+                    "completed_at": 1597631352,
+                    "submitted_at": null,
+                    "monetized_at": 1597631356,
+                    "completed_date": "08/16/2020 19:29:12",
+                    "submitted_date": null,
+                    "monetized_date": "08/16/2020 19:29:16",
+                    "is_preapprove": false,
+                    "last_activity_dt": {
+                      "date": "2020-09-01 03:13:14",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    },
+                    "last_activity_at": {
+                      "date": "2020-09-01 03:13:14",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    },
+                    "onboarding_details": [],
+                    "avatar": {
+                      "data": {
+                        "id": 20,
+                        "hash_id": "my1WR8M2zJm6Dag5GPLe7j6K",
+                        "path": "aplhvf9km6fs6xme",
+                        "status": "approved",
+                        "private": false,
+                        "is_avatar": true,
+                        "urls": {
+                          "resized": "https://devimages.whatsyourprice.com/dev/images/resized/aplhvf9km6fs6xme.jpg",
+                          "profile": "https://devimages.whatsyourprice.com/dev/images/profile/aplhvf9km6fs6xme.jpg",
+                          "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/aplhvf9km6fs6xme.jpg",
+                          "720px": "https://devimages.whatsyourprice.com/dev/images/720px/aplhvf9km6fs6xme.jpg",
+                          "410px": "https://devimages.whatsyourprice.com/dev/images/410px/aplhvf9km6fs6xme.jpg",
+                          "820px": "https://devimages.whatsyourprice.com/dev/images/820px/aplhvf9km6fs6xme.jpg"
+                        }
+                      }
+                    },
+                    "body_types": {
+                      "data": []
+                    }
+                  }
+                },
+                "detail": {
+                  "data": {
+                    "id": 23,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "to_account_hash_id": "aXdyBZx98JOLde25NYVKQEML",
+                    "i_sent": true,
+                    "suggest": false,
+                    "is_counter": false,
+                    "status": "pending",
+                    "price_original": 100,
+                    "price_usd": 100,
+                    "price_local": 100,
+                    "credit_cost": 20,
+                    "min_counter_price": 101,
+                    "max_counter_price": 500,
+                    "created_at": {
+                      "date": "2020-08-17 10:29:16",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    },
+                    "updated_at": {
+                      "date": "2020-08-17 10:29:16",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    },
+                    "currency_original": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    },
+                    "currency_usd": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    },
+                    "currency_local": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "meta": {
+              "debug": {
+                "__meta": {
+                  "id": "X9256842f61ee77913d19405320662e98",
+                  "datetime": "2020-09-14 01:28:02",
+                  "utime": 1600072082.45414,
+                  "method": "GET",
+                  "uri": "/api/activity/12",
+                  "ip": "127.0.0.1"
+                },
+                "php": {
+                  "version": "7.4.10",
+                  "interface": "fpm-fcgi"
+                },
+                "messages": {
+                  "count": 0,
+                  "messages": []
+                },
+                "time": {
+                  "start": 1600072082.415456,
+                  "end": 1600072082.454177,
+                  "duration": 0.03872084617614746,
+                  "duration_str": "38.72ms",
+                  "measures": [
+                    {
+                      "label": "Booting",
+                      "start": 1600072082.415456,
+                      "relative_start": 0,
+                      "end": 1600072082.442728,
+                      "relative_end": 1600072082.442728,
+                      "duration": 0.02727198600769043,
+                      "duration_str": "27.27ms",
+                      "params": [],
+                      "collector": null
+                    },
+                    {
+                      "label": "Application",
+                      "start": 1600072082.442799,
+                      "relative_start": 0.027343034744262695,
+                      "end": 1600072082.454179,
+                      "relative_end": 0.0000021457672119140625,
+                      "duration": 0.01137995719909668,
+                      "duration_str": "11.38ms",
+                      "params": [],
+                      "collector": null
+                    }
+                  ]
+                },
+                "memory": {
+                  "peak_usage": 6041720,
+                  "peak_usage_str": "5.76MB"
+                },
+                "exceptions": {
+                  "count": 0,
+                  "exceptions": []
+                },
+                "views": {
+                  "nb_templates": 0,
+                  "templates": []
+                },
+                "route": {
+                  "uri": "GET api/activity/{howMany?}",
+                  "middleware": "api, auth:api, versionCheck, logActiveUser, checkKey, checkForIpChange, checkForCountryChange",
+                  "controller": "App\\Http\\Controllers\\Api\\RecentActivityController@index",
+                  "namespace": "App\\Http\\Controllers\\Api",
+                  "prefix": "api/activity",
+                  "where": [],
+                  "as": "api.recent_activity.index",
+                  "file": "app/Http/Controllers/Api/RecentActivityController.php:33-43"
+                },
+                "queries": {
+                  "nb_statements": 2,
+                  "nb_failed_statements": 0,
+                  "accumulated_duration": 0.0037,
+                  "accumulated_duration_str": "3.7ms",
+                  "statements": [
+                    {
+                      "sql": "select * from `account_logs` where `account_logs`.`account_id` = 6 and `account_logs`.`account_id` is not null order by `created_dt` desc, `created_dt` desc limit 1",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00085,
+                      "duration_str": "850μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    },
+                    {
+                      "sql": "select * from (select * from `recent_activities` where `to_account_id` = 6 and `model` <> 'App\\Models\\OfferLog' and 1 = 1 and ((`recent_activities`.`deleted_at` is not null and `recent_activities`.`deleted_reason` = 'block') or `recent_activities`.`deleted_at` is null)) AS recent inner join `accounts` on `accounts`.`id` = `recent`.`account_id` inner join `profiles` on `profiles`.`account_id` = `accounts`.`id` where `accounts`.`deleted_dt` is null and `accounts`.`suspended` is null and `is_completed` = 1 order by `created_at` desc limit 12",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6",
+                        "App\\Models\\OfferLog",
+                        "block",
+                        "1"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00285,
+                      "duration_str": "2.85ms",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    }
+                  ]
+                },
+                "swiftmailer_mails": {
+                  "count": 0,
+                  "mails": []
+                }
+              },
+              "request": {
+                "id": "X9256842f61ee77913d19405320662e98",
+                "datetime": "2020-09-14 01:28:02",
+                "utime": 1600072082.45414,
+                "method": "GET",
+                "uri": "/api/activity/12",
+                "ip": "127.0.0.1"
+              }
+            }
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": {
+            "children": [
+              "—",
+              "No",
+              "Yes"
+            ],
+            "smoking": [
+              "—",
+              "No",
+              "Yes"
+            ],
+            "drinking": [
+              "—",
+              "No",
+              "Yes"
+            ],
+            "income": {
+              "0": "—",
+              "101": "Less than US$100,000",
+              "102": "US$100,000 - US$300,000",
+              "103": "US$300,000 - US$1 Million",
+              "104": "More than US$1 Million"
+            }
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": {}
+        },
+        "response": {
+          "body": {
+            "data": {
+              "id": 6,
+              "username": "saul",
+              "email": "saul@domain.com",
+              "notify_matches": true,
+              "notify_offer": true,
+              "notify_message": false,
+              "notify_favorite": true,
+              "notify_email": false,
+              "notify_push": false,
+              "alert_favorite": true,
+              "alert_offer": true,
+              "alert_mail": true,
+              "poll_participation": true,
+              "hidden": false,
+              "hidden_view": false,
+              "hidden_last_login_dt": false,
+              "social": {
+                "data": []
+              }
+            },
+            "meta": {
+              "debug": {
+                "__meta": {
+                  "id": "Xfe0cad461953a85ba63a4fc4086f2e64",
+                  "datetime": "2020-09-14 01:28:02",
+                  "utime": 1600072082.384799,
+                  "method": "GET",
+                  "uri": "/api/settings?include=social",
+                  "ip": "127.0.0.1"
+                },
+                "php": {
+                  "version": "7.4.10",
+                  "interface": "fpm-fcgi"
+                },
+                "messages": {
+                  "count": 0,
+                  "messages": []
+                },
+                "time": {
+                  "start": 1600072082.349564,
+                  "end": 1600072082.384822,
+                  "duration": 0.035257816314697266,
+                  "duration_str": "35.26ms",
+                  "measures": [
+                    {
+                      "label": "Booting",
+                      "start": 1600072082.349564,
+                      "relative_start": 0,
+                      "end": 1600072082.377396,
+                      "relative_end": 1600072082.377396,
+                      "duration": 0.02783203125,
+                      "duration_str": "27.83ms",
+                      "params": [],
+                      "collector": null
+                    },
+                    {
+                      "label": "Application",
+                      "start": 1600072082.377481,
+                      "relative_start": 0.027916908264160156,
+                      "end": 1600072082.384824,
+                      "relative_end": 0.0000021457672119140625,
+                      "duration": 0.0073430538177490234,
+                      "duration_str": "7.34ms",
+                      "params": [],
+                      "collector": null
+                    }
+                  ]
+                },
+                "memory": {
+                  "peak_usage": 5711088,
+                  "peak_usage_str": "5.45MB"
+                },
+                "exceptions": {
+                  "count": 0,
+                  "exceptions": []
+                },
+                "views": {
+                  "nb_templates": 0,
+                  "templates": []
+                },
+                "route": {
+                  "uri": "GET api/settings",
+                  "middleware": "api, auth:api, versionCheck, logActiveUser, checkKey, checkForIpChange, checkForCountryChange",
+                  "controller": "App\\Http\\Controllers\\Api\\SettingsController@show",
+                  "namespace": "App\\Http\\Controllers\\Api",
+                  "prefix": "api/settings",
+                  "where": [],
+                  "as": "api.settings.show",
+                  "file": "app/Http/Controllers/Api/SettingsController.php:69-82"
+                },
+                "queries": {
+                  "nb_statements": 1,
+                  "nb_failed_statements": 0,
+                  "accumulated_duration": 0.00065,
+                  "accumulated_duration_str": "650μs",
+                  "statements": [
+                    {
+                      "sql": "select * from `account_logs` where `account_logs`.`account_id` = 6 and `account_logs`.`account_id` is not null order by `created_dt` desc, `created_dt` desc limit 1",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00065,
+                      "duration_str": "650μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    }
+                  ]
+                },
+                "swiftmailer_mails": {
+                  "count": 0,
+                  "mails": []
+                }
+              },
+              "request": {
+                "id": "Xfe0cad461953a85ba63a4fc4086f2e64",
+                "datetime": "2020-09-14 01:28:02",
+                "utime": 1600072082.384799,
+                "method": "GET",
+                "uri": "/api/settings?include=social",
+                "ip": "127.0.0.1"
+              }
+            }
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": {
+            "data": [],
+            "meta": {
+              "debug": {
+                "__meta": {
+                  "id": "Xafcf9ca15442b774ae0611169d14af4d",
+                  "datetime": "2020-09-14 01:28:02",
+                  "utime": 1600072082.402905,
+                  "method": "GET",
+                  "uri": "/api/notification-banner",
+                  "ip": "127.0.0.1"
+                },
+                "php": {
+                  "version": "7.4.10",
+                  "interface": "fpm-fcgi"
+                },
+                "messages": {
+                  "count": 0,
+                  "messages": []
+                },
+                "time": {
+                  "start": 1600072082.364449,
+                  "end": 1600072082.40293,
+                  "duration": 0.03848099708557129,
+                  "duration_str": "38.48ms",
+                  "measures": [
+                    {
+                      "label": "Booting",
+                      "start": 1600072082.364449,
+                      "relative_start": 0,
+                      "end": 1600072082.392303,
+                      "relative_end": 1600072082.392303,
+                      "duration": 0.027853965759277344,
+                      "duration_str": "27.85ms",
+                      "params": [],
+                      "collector": null
+                    },
+                    {
+                      "label": "Application",
+                      "start": 1600072082.392373,
+                      "relative_start": 0.027924060821533203,
+                      "end": 1600072082.402932,
+                      "relative_end": 0.0000019073486328125,
+                      "duration": 0.010558843612670898,
+                      "duration_str": "10.56ms",
+                      "params": [],
+                      "collector": null
+                    }
+                  ]
+                },
+                "memory": {
+                  "peak_usage": 5950448,
+                  "peak_usage_str": "5.67MB"
+                },
+                "exceptions": {
+                  "count": 0,
+                  "exceptions": []
+                },
+                "views": {
+                  "nb_templates": 0,
+                  "templates": []
+                },
+                "route": {
+                  "uri": "GET api/notification-banner",
+                  "middleware": "api, auth:api, versionCheck, logActiveUser, checkKey, checkForIpChange, checkForCountryChange",
+                  "controller": "App\\Http\\Controllers\\Api\\NotificationBannerController@index",
+                  "namespace": "App\\Http\\Controllers\\Api",
+                  "prefix": "api",
+                  "where": [],
+                  "as": "api.notificationBanner",
+                  "file": "app/Http/Controllers/Api/NotificationBannerController.php:23-31"
+                },
+                "queries": {
+                  "nb_statements": 2,
+                  "nb_failed_statements": 0,
+                  "accumulated_duration": 0.0012200000000000002,
+                  "accumulated_duration_str": "1.22ms",
+                  "statements": [
+                    {
+                      "sql": "select * from `account_logs` where `account_logs`.`account_id` = 6 and `account_logs`.`account_id` is not null order by `created_dt` desc, `created_dt` desc limit 1",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00067,
+                      "duration_str": "670μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    },
+                    {
+                      "sql": "select * from `notification_banners` where ((`enabled` = 1 and `start_at` is null and `end_at` is null) or (`enabled` = 1 and `start_at` is not null and `end_at` is not null and `start_at` <= '2020-09-14 01:28:02' and `end_at` >= '2020-09-14 01:28:02')) and `notification_banners`.`deleted_at` is null order by `id` desc limit 1",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "1",
+                        "1",
+                        "2020-09-14 01:28:02",
+                        "2020-09-14 01:28:02"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00055,
+                      "duration_str": "550μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    }
+                  ]
+                },
+                "swiftmailer_mails": {
+                  "count": 0,
+                  "mails": []
+                }
+              },
+              "request": {
+                "id": "Xafcf9ca15442b774ae0611169d14af4d",
+                "datetime": "2020-09-14 01:28:02",
+                "utime": 1600072082.402905,
+                "method": "GET",
+                "uri": "/api/notification-banner",
+                "ip": "127.0.0.1"
+              }
+            }
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": {}
+        },
+        "response": {
+          "body": {
+            "data": {
+              "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+              "username": "saul",
+              "is_premium": true,
+              "is_admin": false,
+              "has_photo": false,
+              "email": "saul@domain.com",
+              "email_confirmed": true,
+              "unread_messages": 0,
+              "new_favorites": 0,
+              "membership_expires": {
+                "date": "2020-12-31 20:28:22",
+                "timezone_type": 3,
+                "timezone": "America/Los_Angeles"
+              },
+              "profile_complete": true,
+              "is_activated": true,
+              "is_approved": true,
+              "credits": 1880,
+              "offer_counts": {
+                "total": 0,
+                "new": 0,
+                "pending": 4,
+                "accepted": 0,
+                "rejected": 0
+              },
+              "can_make_offer": true,
+              "needs_account_password": false,
+              "cannot_make_offer_reasons": null,
+              "photo_complete": true,
+              "under_review": [],
+              "direct_s3_upload": true,
+              "recaptchav3_result": null,
+              "currency": {
+                "data": {
+                  "name": "dollar",
+                  "label": "&#36;",
+                  "label_unicode": "36",
+                  "code": "USD",
+                  "initial": ""
+                }
+              },
+              "profile": {
+                "data": {
+                  "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                  "sex": "Male",
+                  "gender": "Male",
+                  "account_type": "Generous",
+                  "looking_male": false,
+                  "looking_female": true,
+                  "age": 22,
+                  "age_min": 18,
+                  "age_max": 72,
+                  "income": 103,
+                  "net_worth": "$10 million - $50 million",
+                  "height": "6'3\" (191cm)",
+                  "body_type": "A Few Extra Pounds",
+                  "eye_color": "Black",
+                  "hair_color": "Dark Brown",
+                  "country": "United States",
+                  "region": "Nevada",
+                  "city": "Las Vegas",
+                  "travel": false,
+                  "seeking": "Necessitatibus perspiciatis aut quis odio voluptatem totam rerum atque mollitia beatae nam iusto ipsum adipisci velit est odit ratione molestiae commodi quos assumenda et rem ipsum nihil in repudiandae assumenda omnis dolorem soluta ullam non facilis dolorem maxime est.",
+                  "passport": false,
+                  "dating_just_dating": false,
+                  "dating_friendship": false,
+                  "dating_marriage": false,
+                  "dating_married": true,
+                  "dating_adult": true,
+                  "dating_mentorship": false,
+                  "occupation": "Sit Lorem",
+                  "description": "Et deleniti nisi et qui quam autem rem reiciendis at velit accusantium in illo numquam voluptas atque voluptatem quia nobis ut voluptas est unde sit molestiae rerum pariatur quasi qui ut voluptatem nesciunt ratione eum ea ipsum qui quia eius et quisquam ea est possimus a nulla.",
+                  "education": "Graduate Degree",
+                  "children": 2,
+                  "smoking": 2,
+                  "drinking": 2,
+                  "travel_with_me": false,
+                  "travel_to_me": false,
+                  "travel_to_you": false,
+                  "viewed_count": 405,
+                  "photos_count": 5,
+                  "private_photos_count": 5,
+                  "approved_public_photos_count": 0,
+                  "required_fields_completed": true,
+                  "online": true,
+                  "celebrity": false,
+                  "background_check": false,
+                  "verifiedbycam": false,
+                  "last_login_location": null,
+                  "last_login_location_full": null,
+                  "last_access_location_full": null,
+                  "created_at": {
+                    "date": "2019-10-17 14:06:47",
+                    "timezone_type": 3,
+                    "timezone": "America/Los_Angeles"
+                  },
+                  "completed_at": 1597631351,
+                  "submitted_at": 1597723460,
+                  "monetized_at": 1597631356,
+                  "completed_date": "08/16/2020 19:29:11",
+                  "submitted_date": "08/17/2020 21:04:20",
+                  "monetized_date": "08/16/2020 19:29:16",
+                  "is_preapprove": false,
+                  "last_activity_dt": {
+                    "date": "2020-09-14 01:28:02",
+                    "timezone_type": 3,
+                    "timezone": "America/Los_Angeles"
+                  },
+                  "last_activity_at": {
+                    "date": "2020-09-14 01:28:02",
+                    "timezone_type": 3,
+                    "timezone": "America/Los_Angeles"
+                  },
+                  "onboarding_details": [],
+                  "avatar": {
+                    "data": {
+                      "id": 120,
+                      "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                      "path": "EbrSJdmY11PAEu5H",
+                      "status": "approved",
+                      "private": true,
+                      "is_avatar": true,
+                      "urls": {
+                        "resized": "https://devimages.whatsyourprice.com/dev/images/resized/EbrSJdmY11PAEu5H.jpg",
+                        "profile": "https://devimages.whatsyourprice.com/dev/images/profile/EbrSJdmY11PAEu5H.jpg",
+                        "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/EbrSJdmY11PAEu5H.jpg",
+                        "720px": "https://devimages.whatsyourprice.com/dev/images/720px/EbrSJdmY11PAEu5H.jpg",
+                        "410px": "https://devimages.whatsyourprice.com/dev/images/410px/EbrSJdmY11PAEu5H.jpg",
+                        "820px": "https://devimages.whatsyourprice.com/dev/images/820px/EbrSJdmY11PAEu5H.jpg"
+                      },
+                      "created_dt": {
+                        "date": "2020-09-08 23:37:56",
+                        "timezone_type": 3,
+                        "timezone": "America/Los_Angeles"
+                      }
+                    }
+                  },
+                  "body_types": {
+                    "data": [
+                      {
+                        "id": 4,
+                        "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                        "type_id": 1,
+                        "type": "body_types",
+                        "value": 3,
+                        "description": "Average"
+                      },
+                      {
+                        "id": 6,
+                        "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                        "type_id": 1,
+                        "type": "body_types",
+                        "value": 5,
+                        "description": "A Few Extra Pounds"
+                      }
+                    ]
+                  }
+                }
+              },
+              "photo": {
+                "data": [
+                  {
+                    "id": 120,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "EbrSJdmY11PAEu5H",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/EbrSJdmY11PAEu5H.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/EbrSJdmY11PAEu5H.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/EbrSJdmY11PAEu5H.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/EbrSJdmY11PAEu5H.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/EbrSJdmY11PAEu5H.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/EbrSJdmY11PAEu5H.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-09-08 23:37:56",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  },
+                  {
+                    "id": 113,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "54Qqj2iZyyqTNwjq",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": false,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/54Qqj2iZyyqTNwjq.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/54Qqj2iZyyqTNwjq.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/54Qqj2iZyyqTNwjq.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/54Qqj2iZyyqTNwjq.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/54Qqj2iZyyqTNwjq.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/54Qqj2iZyyqTNwjq.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-08-30 01:22:46",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  },
+                  {
+                    "id": 114,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "ElR2DzV1nhVs47XW",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": false,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/ElR2DzV1nhVs47XW.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/ElR2DzV1nhVs47XW.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/ElR2DzV1nhVs47XW.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/ElR2DzV1nhVs47XW.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/ElR2DzV1nhVs47XW.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/ElR2DzV1nhVs47XW.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-08-30 01:23:29",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  },
+                  {
+                    "id": 118,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "51mKVQBkt3WYsQXR",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": false,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/51mKVQBkt3WYsQXR.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/51mKVQBkt3WYsQXR.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/51mKVQBkt3WYsQXR.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/51mKVQBkt3WYsQXR.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/51mKVQBkt3WYsQXR.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/51mKVQBkt3WYsQXR.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-08-30 01:26:13",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  },
+                  {
+                    "id": 119,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "lB3ocfuiGGhNSZHf",
+                    "status": "approved",
+                    "private": true,
+                    "is_avatar": false,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/lB3ocfuiGGhNSZHf.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/lB3ocfuiGGhNSZHf.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/lB3ocfuiGGhNSZHf.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/lB3ocfuiGGhNSZHf.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/lB3ocfuiGGhNSZHf.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/lB3ocfuiGGhNSZHf.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-09-08 23:37:33",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  }
+                ]
+              }
+            },
+            "meta": {
+              "debug": {
+                "__meta": {
+                  "id": "X833ff23196bc4efed1cc05cd5fd2c7bc",
+                  "datetime": "2020-09-14 01:28:02",
+                  "utime": 1600072082.437554,
+                  "method": "GET",
+                  "uri": "/api/auth/user?include=profile,photo",
+                  "ip": "127.0.0.1"
+                },
+                "php": {
+                  "version": "7.4.10",
+                  "interface": "fpm-fcgi"
+                },
+                "messages": {
+                  "count": 0,
+                  "messages": []
+                },
+                "time": {
+                  "start": 1600072082.397147,
+                  "end": 1600072082.437585,
+                  "duration": 0.040438175201416016,
+                  "duration_str": "40.44ms",
+                  "measures": [
+                    {
+                      "label": "Booting",
+                      "start": 1600072082.397147,
+                      "relative_start": 0,
+                      "end": 1600072082.429769,
+                      "relative_end": 1600072082.429769,
+                      "duration": 0.03262209892272949,
+                      "duration_str": "32.62ms",
+                      "params": [],
+                      "collector": null
+                    },
+                    {
+                      "label": "Application",
+                      "start": 1600072082.429837,
+                      "relative_start": 0.03269004821777344,
+                      "end": 1600072082.437588,
+                      "relative_end": 0.00000286102294921875,
+                      "duration": 0.007750988006591797,
+                      "duration_str": "7.75ms",
+                      "params": [],
+                      "collector": null
+                    }
+                  ]
+                },
+                "memory": {
+                  "peak_usage": 5839144,
+                  "peak_usage_str": "5.57MB"
+                },
+                "exceptions": {
+                  "count": 0,
+                  "exceptions": []
+                },
+                "views": {
+                  "nb_templates": 0,
+                  "templates": []
+                },
+                "route": {
+                  "uri": "GET api/auth/user",
+                  "middleware": "api, auth:api, logActiveUser, checkKey, checkForIpChange, versionCheck",
+                  "controller": "App\\Http\\Controllers\\Api\\Auth\\AuthController@user",
+                  "namespace": "App\\Http\\Controllers\\Api\\Auth",
+                  "prefix": "api/auth",
+                  "where": [],
+                  "as": "api.auth.user",
+                  "file": "app/Http/Controllers/Api/Auth/AuthController.php:492-499"
+                },
+                "queries": {
+                  "nb_statements": 1,
+                  "nb_failed_statements": 0,
+                  "accumulated_duration": 0.00063,
+                  "accumulated_duration_str": "630μs",
+                  "statements": [
+                    {
+                      "sql": "select * from `account_logs` where `account_logs`.`account_id` = 6 and `account_logs`.`account_id` is not null order by `created_dt` desc, `created_dt` desc limit 1",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00063,
+                      "duration_str": "630μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    }
+                  ]
+                },
+                "swiftmailer_mails": {
+                  "count": 0,
+                  "mails": []
+                }
+              },
+              "request": {
+                "id": "X833ff23196bc4efed1cc05cd5fd2c7bc",
+                "datetime": "2020-09-14 01:28:02",
+                "utime": 1600072082.437554,
+                "method": "GET",
+                "uri": "/api/auth/user?include=profile,photo",
+                "ip": "127.0.0.1"
+              }
+            }
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": {
+            "data": [
+              {
+                "hash_id": "RablzjDGqrJ4gA3Vdgkx7X6v",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 18,
+                "age_min": 18,
+                "age_max": 52,
+                "income": 102,
+                "net_worth": "US$50,001 - $100,000",
+                "height": "6'11\" (211cm)",
+                "body_type": "Average",
+                "eye_color": "Green",
+                "hair_color": "Auburn",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Ex quibusdam ut harum in rem est voluptatem exercitationem autem repudiandae dolorum aut officia dolores aut voluptatum odio rerum quia et et aut laborum expedita temporibus quia eos sit impedit in molestiae cumque saepe.",
+                "passport": false,
+                "dating_just_dating": true,
+                "dating_friendship": false,
+                "dating_marriage": false,
+                "dating_married": true,
+                "dating_adult": false,
+                "dating_mentorship": true,
+                "occupation": "Nobis eos ut amet sed.",
+                "description": "Aut cum sit non at accusamus sed ipsam ut a est aliquid laborum ipsa sed aut et at ratione sed numquam dolorum quos quis delectus rerum consequatur provident quod quo quos praesentium porro sunt ipsam.",
+                "education": "Associates Degree",
+                "children": 2,
+                "smoking": 2,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 3,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Gabon",
+                "created_at": {
+                  "date": "2019-09-03 19:58:31",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631351,
+                "submitted_at": null,
+                "monetized_at": 1597631357,
+                "completed_date": "08/16/2020 19:29:11",
+                "submitted_date": null,
+                "monetized_date": "08/16/2020 19:29:17",
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2020-05-04 05:59:48",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 6,
+                    "hash_id": "RablzjDGqrJ4gA3Vdgkx7X6v",
+                    "path": "x94vjr9yu37xx5ce",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/x94vjr9yu37xx5ce.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/x94vjr9yu37xx5ce.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/x94vjr9yu37xx5ce.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/x94vjr9yu37xx5ce.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/x94vjr9yu37xx5ce.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/x94vjr9yu37xx5ce.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "RablzjDGqrJ4gA3Vdgkx7X6v",
+                    "username": "marie",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "my1WR8M2zJm6Dag5GPLe7j6K",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 27,
+                "age_min": 25,
+                "age_max": 49,
+                "income": 104,
+                "net_worth": "$1 million - $5 million",
+                "height": "> 7'0\" (> 214cm)",
+                "body_type": "A Few Extra Pounds",
+                "eye_color": "Other",
+                "hair_color": "Black",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Sed minima aliquam rerum autem provident nemo est sunt animi architecto fuga pariatur adipisci in quisquam in ex molestias vero aliquid vero quia exercitationem impedit et enim dolorem id voluptatem nihil et voluptas ut maiores laudantium consequuntur nemo a dignissimos.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": true,
+                "dating_marriage": false,
+                "dating_married": true,
+                "dating_adult": true,
+                "dating_mentorship": false,
+                "occupation": "Qui ut qui non dolor totam.",
+                "description": "Neque delectus veniam ea amet quo totam eius aut molestiae eveniet sed consequatur unde ipsum voluptatum occaecati est quia magni necessitatibus perferendis provident sit quasi ab recusandae sequi odit.",
+                "education": "Graduate Degree",
+                "children": 2,
+                "smoking": 2,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 201,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Burundi",
+                "created_at": {
+                  "date": "2020-04-10 12:13:32",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631351,
+                "submitted_at": null,
+                "monetized_at": 1597631357,
+                "completed_date": "08/16/2020 19:29:11",
+                "submitted_date": null,
+                "monetized_date": "08/16/2020 19:29:17",
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2019-12-03 14:32:02",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 20,
+                    "hash_id": "my1WR8M2zJm6Dag5GPLe7j6K",
+                    "path": "aplhvf9km6fs6xme",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/aplhvf9km6fs6xme.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/aplhvf9km6fs6xme.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/aplhvf9km6fs6xme.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/aplhvf9km6fs6xme.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/aplhvf9km6fs6xme.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/aplhvf9km6fs6xme.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "my1WR8M2zJm6Dag5GPLe7j6K",
+                    "username": "russel-buddy",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "3pwBZ4v2GJnPzdD0eXDWnjbg",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 19,
+                "age_min": 21,
+                "age_max": 73,
+                "income": 102,
+                "net_worth": "US$10,001 - $25,000",
+                "height": "6'3\" (191cm)",
+                "body_type": "A Few Extra Pounds",
+                "eye_color": "Other",
+                "hair_color": "Dark Brown",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Rerum laboriosam doloremque nisi sed consequatur voluptatem sint at harum qui est iste est ullam ad accusantium eos et est nesciunt placeat laborum voluptatibus vel sint quibusdam earum aut sequi quisquam quibusdam ea quia velit magnam dolorem fuga nulla quae veritatis ratione in perferendis qui ratione quas aliquid ut eum asperiores.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": true,
+                "dating_marriage": false,
+                "dating_married": true,
+                "dating_adult": true,
+                "dating_mentorship": false,
+                "occupation": "Et nostrum officia et.",
+                "description": "Voluptates deserunt quidem et doloremque consequatur mollitia vero occaecati aut sit enim nihil exercitationem sit repellendus aliquid eum soluta incidunt eos aut doloribus labore qui.",
+                "education": "Associates Degree",
+                "children": 2,
+                "smoking": 2,
+                "drinking": 2,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 77,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Pakistan",
+                "created_at": {
+                  "date": "2020-08-09 10:43:17",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631351,
+                "submitted_at": null,
+                "monetized_at": 1597631356,
+                "completed_date": "08/16/2020 19:29:11",
+                "submitted_date": null,
+                "monetized_date": "08/16/2020 19:29:16",
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2020-05-16 16:19:21",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 19,
+                    "hash_id": "3pwBZ4v2GJnPzdD0eXDWnjbg",
+                    "path": "mrxtjfk2kvzpf7zl",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/mrxtjfk2kvzpf7zl.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/mrxtjfk2kvzpf7zl.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/mrxtjfk2kvzpf7zl.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/mrxtjfk2kvzpf7zl.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/mrxtjfk2kvzpf7zl.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/mrxtjfk2kvzpf7zl.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "3pwBZ4v2GJnPzdD0eXDWnjbg",
+                    "username": "kane06",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "48DrBaQ1bJ69BL7A2kXOyeMz",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 23,
+                "age_min": 20,
+                "age_max": 58,
+                "income": 101,
+                "net_worth": "$50 million - $100 million",
+                "height": "7'0\" (214cm)",
+                "body_type": "A Few Extra Pounds",
+                "eye_color": "Blue",
+                "hair_color": "Other",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Earum omnis amet delectus beatae sit magnam voluptatum corporis et quas asperiores sit doloremque consectetur est eos ullam qui aliquam animi ipsam aut labore ratione aliquam cum officia doloribus asperiores vel dolorem deleniti sit dolorem fugit sit.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": false,
+                "dating_marriage": true,
+                "dating_married": true,
+                "dating_adult": true,
+                "dating_mentorship": true,
+                "occupation": "Beatae cumque fuga qui rerum.",
+                "description": "In minima officiis vero possimus suscipit vel necessitatibus facilis enim nihil provident necessitatibus sequi ut eum minima ratione ad et quis natus quam impedit rem qui sit nam rerum tenetur et maiores in eligendi quia facere a mollitia.",
+                "education": "Associates Degree",
+                "children": 2,
+                "smoking": 2,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 21,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "French Polynesia",
+                "created_at": {
+                  "date": "2020-03-24 20:27:41",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631352,
+                "submitted_at": null,
+                "monetized_at": 1597631359,
+                "completed_date": "08/16/2020 19:29:12",
+                "submitted_date": null,
+                "monetized_date": "08/16/2020 19:29:19",
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2019-12-15 01:17:15",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 39,
+                    "hash_id": "48DrBaQ1bJ69BL7A2kXOyeMz",
+                    "path": "5vehpttplhmt5k9f",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/5vehpttplhmt5k9f.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/5vehpttplhmt5k9f.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/5vehpttplhmt5k9f.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/5vehpttplhmt5k9f.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/5vehpttplhmt5k9f.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/5vehpttplhmt5k9f.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "48DrBaQ1bJ69BL7A2kXOyeMz",
+                    "username": "jeanette13",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "nVXbpEGOPJoNgVOAMDkxoB1a",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 25,
+                "age_min": 21,
+                "age_max": 82,
+                "income": 104,
+                "net_worth": "$5 million - $10 million",
+                "height": "5'11\" (180cm)",
+                "body_type": "Full / Overweight",
+                "eye_color": "Blue",
+                "hair_color": "Other",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Quam odit ut neque aut delectus deserunt soluta voluptatibus explicabo rerum distinctio iusto magni ipsa a aut sit nobis recusandae saepe quos sapiente officiis consequuntur quia molestias rem veniam deserunt cupiditate et at vero necessitatibus eligendi eum provident voluptatibus est veniam nulla dolore.",
+                "passport": false,
+                "dating_just_dating": true,
+                "dating_friendship": true,
+                "dating_marriage": false,
+                "dating_married": false,
+                "dating_adult": false,
+                "dating_mentorship": true,
+                "occupation": "Magni maiores illo velit.",
+                "description": "Molestiae provident architecto sunt voluptas in vero est qui recusandae quaerat fugiat cupiditate perferendis praesentium consequatur qui voluptas voluptatem praesentium nesciunt omnis omnis eaque corporis consectetur rem recusandae assumenda dolor dicta voluptatem enim neque ad aspernatur officia corporis modi alias ea voluptas non et qui enim est odit eligendi quis reiciendis suscipit.",
+                "education": "Bachelor's Degree",
+                "children": 2,
+                "smoking": 2,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 280,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Democratic Republic of the Congo",
+                "created_at": {
+                  "date": "2020-02-14 08:48:17",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631352,
+                "submitted_at": null,
+                "monetized_at": 1597631357,
+                "completed_date": "08/16/2020 19:29:12",
+                "submitted_date": null,
+                "monetized_date": "08/16/2020 19:29:17",
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2019-09-01 16:04:51",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 30,
+                    "hash_id": "7Qq4xaMm60YnEKEAeNyKjY2B",
+                    "path": "vv3a63cjsjfflzfe",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/vv3a63cjsjfflzfe.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/vv3a63cjsjfflzfe.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/vv3a63cjsjfflzfe.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/vv3a63cjsjfflzfe.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/vv3a63cjsjfflzfe.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/vv3a63cjsjfflzfe.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "nVXbpEGOPJoNgVOAMDkxoB1a",
+                    "username": "amya-kuvalis",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "x7GBPdRga0r9enK5Q2On6DwW",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 27,
+                "age_min": 20,
+                "age_max": 77,
+                "income": 104,
+                "net_worth": "US$25,001 - $50,000",
+                "height": "5'1\" (155cm)",
+                "body_type": "Full / Overweight",
+                "eye_color": "Black",
+                "hair_color": "Black",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Et ipsa libero consequuntur ipsam animi qui sed qui nobis beatae et voluptas possimus et aut vero facilis ut harum perspiciatis voluptatem aspernatur laborum ea.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": true,
+                "dating_marriage": false,
+                "dating_married": false,
+                "dating_adult": false,
+                "dating_mentorship": false,
+                "occupation": "Aut dolor officia eos quasi.",
+                "description": "Ullam doloribus optio ut illum optio harum qui rerum et quo iste ut iste ipsum mollitia quas iusto nobis harum aut id est culpa quod quis quia corrupti veniam aut facere sed.",
+                "education": "Associates Degree",
+                "children": 2,
+                "smoking": 1,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 42,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Germany",
+                "created_at": {
+                  "date": "2020-04-05 00:41:10",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631353,
+                "submitted_at": null,
+                "monetized_at": 1597631359,
+                "completed_date": "08/16/2020 19:29:13",
+                "submitted_date": null,
+                "monetized_date": "08/16/2020 19:29:19",
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2020-08-07 05:37:47",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 13,
+                    "hash_id": "PVaoGNqxp5a4eygJLX4YE23b",
+                    "path": "matfnydtypjzvcjd",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/matfnydtypjzvcjd.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/matfnydtypjzvcjd.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/matfnydtypjzvcjd.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/matfnydtypjzvcjd.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/matfnydtypjzvcjd.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/matfnydtypjzvcjd.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "x7GBPdRga0r9enK5Q2On6DwW",
+                    "username": "akeebler",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "meta": {
+              "search_query": {
+                "dating_just_dating": false,
+                "dating_friendship": false,
+                "dating_marriage": false,
+                "dating_married": false,
+                "dating_adult": false,
+                "dating_mentorship": false,
+                "online": false,
+                "distance": "50",
+                "has_photo": true,
+                "photos": false,
+                "order": "recent",
+                "page": 1,
+                "per_page": "6",
+                "min_results": "6",
+                "flexibility": "distance",
+                "lat": 36.1699412,
+                "lon": -115.1398296
+              },
+              "debug": {
+                "__meta": {
+                  "id": "Xf0bcb5bb78cc063d4d92674e831006ab",
+                  "datetime": "2020-09-14 01:28:02",
+                  "utime": 1600072082.533009,
+                  "method": "GET",
+                  "uri": "/api/profile?include=account&page=1&per_page=6&distance=50&order=recent&photos=false&has_photo=true&online=false&age_min=&age_max=&height_min=&height_max=&dating_just_dating=false&dating_friendship=false&dating_marriage=false&dating_sugar=false&dating_married=false&dating_adult=false&dating_mentorship=false&flexibility=distance&min_results=6",
+                  "ip": "127.0.0.1"
+                },
+                "php": {
+                  "version": "7.4.10",
+                  "interface": "fpm-fcgi"
+                },
+                "messages": {
+                  "count": 0,
+                  "messages": []
+                },
+                "time": {
+                  "start": 1600072082.473789,
+                  "end": 1600072082.533031,
+                  "duration": 0.05924201011657715,
+                  "duration_str": "59.24ms",
+                  "measures": [
+                    {
+                      "label": "Booting",
+                      "start": 1600072082.473789,
+                      "relative_start": 0,
+                      "end": 1600072082.508013,
+                      "relative_end": 1600072082.508013,
+                      "duration": 0.03422403335571289,
+                      "duration_str": "34.22ms",
+                      "params": [],
+                      "collector": null
+                    },
+                    {
+                      "label": "Application",
+                      "start": 1600072082.508198,
+                      "relative_start": 0.0344090461730957,
+                      "end": 1600072082.533033,
+                      "relative_end": 0.0000019073486328125,
+                      "duration": 0.024834871292114258,
+                      "duration_str": "24.83ms",
+                      "params": [],
+                      "collector": null
+                    }
+                  ]
+                },
+                "memory": {
+                  "peak_usage": 6475224,
+                  "peak_usage_str": "6.18MB"
+                },
+                "exceptions": {
+                  "count": 0,
+                  "exceptions": []
+                },
+                "views": {
+                  "nb_templates": 0,
+                  "templates": []
+                },
+                "route": {
+                  "uri": "GET api/profile",
+                  "middleware": "api, auth:api, versionCheck, logActiveUser, checkKey, checkForIpChange, checkForCountryChange",
+                  "controller": "App\\Http\\Controllers\\Api\\ProfileController@index",
+                  "namespace": "App\\Http\\Controllers\\Api",
+                  "prefix": "api/profile",
+                  "where": [],
+                  "as": "api.profile.index",
+                  "file": "app/Http/Controllers/Api/ProfileController.php:49-74"
+                },
+                "queries": {
+                  "nb_statements": 4,
+                  "nb_failed_statements": 0,
+                  "accumulated_duration": 0.0034000000000000002,
+                  "accumulated_duration_str": "3.4ms",
+                  "statements": [
+                    {
+                      "sql": "select * from `account_logs` where `account_logs`.`account_id` = 6 and `account_logs`.`account_id` is not null order by `created_dt` desc, `created_dt` desc limit 1",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00087,
+                      "duration_str": "870μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    },
+                    {
+                      "sql": "insert into `recent_searches` (`filters`, `sort`, `per_page`, `account_id`, `modified_dt`, `created_dt`) values ('{\\\"dating_just_dating\\\":false,\\\"dating_friendship\\\":false,\\\"dating_marriage\\\":false,\\\"dating_married\\\":false,\\\"dating_adult\\\":false,\\\"dating_mentorship\\\":false,\\\"online\\\":false,\\\"distance\\\":\\\"50\\\",\\\"has_photo\\\":true,\\\"photos\\\":false,\\\"order\\\":\\\"recent\\\",\\\"page\\\":1,\\\"per_page\\\":\\\"6\\\",\\\"min_results\\\":\\\"6\\\",\\\"flexibility\\\":\\\"distance\\\",\\\"lat\\\":36.1699412,\\\"lon\\\":-115.1398296,\\\"TypeOfSearch\\\":\\\"SearchMembers\\\"}', 'recent', '6', 6, '2020-09-14 01:28:02', '2020-09-14 01:28:02')",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "{&quot;dating_just_dating&quot;:false,&quot;dating_friendship&quot;:false,&quot;dating_marriage&quot;:false,&quot;dating_married&quot;:false,&quot;dating_adult&quot;:false,&quot;dating_mentorship&quot;:false,&quot;online&quot;:false,&quot;distance&quot;:&quot;50&quot;,&quot;has_photo&quot;:true,&quot;photos&quot;:false,&quot;order&quot;:&quot;recent&quot;,&quot;page&quot;:1,&quot;per_page&quot;:&quot;6&quot;,&quot;min_results&quot;:&quot;6&quot;,&quot;flexibility&quot;:&quot;distance&quot;,&quot;lat&quot;:36.1699412,&quot;lon&quot;:-115.1398296,&quot;TypeOfSearch&quot;:&quot;SearchMembers&quot;}",
+                        "recent",
+                        "6",
+                        "6",
+                        "2020-09-14 01:28:02",
+                        "2020-09-14 01:28:02"
+                      ],
+                      "hints": [],
+                      "backtrace": [],
+                      "duration": 0.00066,
+                      "duration_str": "660μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    },
+                    {
+                      "sql": "select * from `accounts` where `accounts`.`id` in (9, 104807, 104808, 104826, 104827, 104829) and `suspended` is null",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.0009699999999999999,
+                      "duration_str": "970μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    },
+                    {
+                      "sql": "select * from `photos` where `photos`.`path` in ('5vehpttplhmt5k9f', 'aplhvf9km6fs6xme', 'matfnydtypjzvcjd', 'mrxtjfk2kvzpf7zl', 'vv3a63cjsjfflzfe', 'x94vjr9yu37xx5ce') and `photos`.`deleted_dt` is null and `photos`.`status` = 'approved'",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "5vehpttplhmt5k9f",
+                        "aplhvf9km6fs6xme",
+                        "matfnydtypjzvcjd",
+                        "mrxtjfk2kvzpf7zl",
+                        "vv3a63cjsjfflzfe",
+                        "x94vjr9yu37xx5ce",
+                        "approved"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.0009,
+                      "duration_str": "900μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    }
+                  ]
+                },
+                "swiftmailer_mails": {
+                  "count": 0,
+                  "mails": []
+                }
+              },
+              "request": {
+                "id": "Xf0bcb5bb78cc063d4d92674e831006ab",
+                "datetime": "2020-09-14 01:28:02",
+                "utime": 1600072082.533009,
+                "method": "GET",
+                "uri": "/api/profile?include=account&page=1&per_page=6&distance=50&order=recent&photos=false&has_photo=true&online=false&age_min=&age_max=&height_min=&height_max=&dating_just_dating=false&dating_friendship=false&dating_marriage=false&dating_sugar=false&dating_married=false&dating_adult=false&dating_mentorship=false&flexibility=distance&min_results=6",
+                "ip": "127.0.0.1"
+              },
+              "pagination": {
+                "total": 14,
+                "count": 6,
+                "per_page": 6,
+                "current_page": 1,
+                "total_pages": 3,
+                "links": {
+                  "next": "https://api-wyp.test/api/profile/?page=2"
+                }
+              }
+            }
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": {
+            "data": [
+              {
+                "hash_id": "PVaoGNqxp5a4epgJLX4YE23b",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 25,
+                "age_min": 21,
+                "age_max": 95,
+                "income": 104,
+                "net_worth": "Prefer Not To Say",
+                "height": "< 5'0\" (<152cm)",
+                "body_type": "Athletic",
+                "eye_color": "Blue",
+                "hair_color": "Black",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Expedita mollitia in corrupti saepe voluptatem ut fuga a consectetur ipsa sed consequatur ut et quo doloribus dolores illo sunt reiciendis quisquam quasi sed maxime molestias atque explicabo aut praesentium minima sit ratione quia iure aliquid perferendis quia qui sit culpa et deleniti dolor cum fugiat iusto soluta hic.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": false,
+                "dating_marriage": false,
+                "dating_married": true,
+                "dating_adult": false,
+                "dating_mentorship": false,
+                "occupation": "Fugit nulla officia sunt est.",
+                "description": "Maiores nihil enim modi modi sapiente accusantium eum aliquam minima perspiciatis id non hic quos nostrum labore nulla est esse quasi consectetur magni non veniam impedit fugit quia sit aliquam porro veniam nisi dignissimos et omnis.",
+                "education": "PhD / Post Doctoral",
+                "children": 2,
+                "smoking": 1,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 463,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Gambia",
+                "created_at": {
+                  "date": "2020-06-30 09:27:49",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631355,
+                "submitted_at": null,
+                "monetized_at": null,
+                "completed_date": "08/16/2020 19:29:15",
+                "submitted_date": null,
+                "monetized_date": null,
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2019-09-21 11:08:07",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 13,
+                    "hash_id": "PVaoGNqxp5a4eygJLX4YE23b",
+                    "path": "matfnydtypjzvcjd",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/matfnydtypjzvcjd.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/matfnydtypjzvcjd.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/matfnydtypjzvcjd.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/matfnydtypjzvcjd.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/matfnydtypjzvcjd.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/matfnydtypjzvcjd.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "PVaoGNqxp5a4epgJLX4YE23b",
+                    "username": "hpacocha",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "EmyW2ordn5jj3p856wY9ZQlM",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 28,
+                "age_min": 18,
+                "age_max": 76,
+                "income": 103,
+                "net_worth": "More than $100 million",
+                "height": "5'10\" (178cm)",
+                "body_type": "A Few Extra Pounds",
+                "eye_color": "Gray",
+                "hair_color": "Gray",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Ea quo quasi minima et voluptates sed facilis voluptatem voluptas est nostrum sed qui amet laboriosam asperiores architecto est impedit eius asperiores ipsam et quia eligendi harum necessitatibus quasi qui vitae perferendis consequatur eos iste animi commodi magnam voluptatem ex velit eaque rerum architecto et fugit rerum labore praesentium sit doloremque eaque autem architecto.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": false,
+                "dating_marriage": false,
+                "dating_married": false,
+                "dating_adult": false,
+                "dating_mentorship": true,
+                "occupation": "Esse quo vero at qui impedit.",
+                "description": "Alias sunt veniam porro maxime excepturi soluta quod magnam hic qui eaque culpa odit esse enim qui sint sit perspiciatis vero excepturi aliquam est eum quia sit perspiciatis cum.",
+                "education": "Bachelor's Degree",
+                "children": 1,
+                "smoking": 2,
+                "drinking": 2,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 971,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Palau",
+                "created_at": {
+                  "date": "2020-08-16 13:24:06",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631355,
+                "submitted_at": null,
+                "monetized_at": null,
+                "completed_date": "08/16/2020 19:29:15",
+                "submitted_date": null,
+                "monetized_date": null,
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2020-01-02 18:25:39",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 14,
+                    "hash_id": "7qkeBKrlYJ3PLZ25Z2xR16zv",
+                    "path": "6kmatrrr3aw5kjpw",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/6kmatrrr3aw5kjpw.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/6kmatrrr3aw5kjpw.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/6kmatrrr3aw5kjpw.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/6kmatrrr3aw5kjpw.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/6kmatrrr3aw5kjpw.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/6kmatrrr3aw5kjpw.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "EmyW2ordn5jj3p856wY9ZQlM",
+                    "username": "hamill-victor",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "K98LnkZl60q94zO0jzarbyYv",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 27,
+                "age_min": 18,
+                "age_max": 46,
+                "income": 103,
+                "net_worth": "US$250,001 - $500,000",
+                "height": "5'8\" (173cm)",
+                "body_type": "Average",
+                "eye_color": "Brown",
+                "hair_color": "Auburn",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Deserunt quis ducimus ex tempore qui quis in ea magnam aut possimus dolorem similique ut architecto ut nihil nobis neque quas sed magnam dolor enim qui dolore.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": false,
+                "dating_marriage": false,
+                "dating_married": false,
+                "dating_adult": true,
+                "dating_mentorship": true,
+                "occupation": "Sed dolore omnis dolorem.",
+                "description": "Fuga sequi repudiandae consequatur sed tempore saepe magnam omnis est cum quam aliquam consectetur tempora et unde temporibus ut aliquam illum modi repellat ex quidem animi ex saepe blanditiis temporibus earum adipisci delectus voluptatibus praesentium et et dicta eos veniam vel.",
+                "education": "High School",
+                "children": 2,
+                "smoking": 2,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 440,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Djibouti",
+                "created_at": {
+                  "date": "2020-07-18 04:41:18",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631355,
+                "submitted_at": null,
+                "monetized_at": 1597631357,
+                "completed_date": "08/16/2020 19:29:15",
+                "submitted_date": null,
+                "monetized_date": "08/16/2020 19:29:17",
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2019-09-21 10:43:00",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 23,
+                    "hash_id": "OnDEo2v9r57Llq406jWqempk",
+                    "path": "t9tl2la7sdusyk6j",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/t9tl2la7sdusyk6j.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/t9tl2la7sdusyk6j.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/t9tl2la7sdusyk6j.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/t9tl2la7sdusyk6j.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/t9tl2la7sdusyk6j.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/t9tl2la7sdusyk6j.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "K98LnkZl60q94zO0jzarbyYv",
+                    "username": "magdalena12",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "x7GBPdRga0r9enK5Q2On6DwW",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 27,
+                "age_min": 20,
+                "age_max": 77,
+                "income": 104,
+                "net_worth": "US$25,001 - $50,000",
+                "height": "5'1\" (155cm)",
+                "body_type": "Full / Overweight",
+                "eye_color": "Black",
+                "hair_color": "Black",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Et ipsa libero consequuntur ipsam animi qui sed qui nobis beatae et voluptas possimus et aut vero facilis ut harum perspiciatis voluptatem aspernatur laborum ea.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": true,
+                "dating_marriage": false,
+                "dating_married": false,
+                "dating_adult": false,
+                "dating_mentorship": false,
+                "occupation": "Aut dolor officia eos quasi.",
+                "description": "Ullam doloribus optio ut illum optio harum qui rerum et quo iste ut iste ipsum mollitia quas iusto nobis harum aut id est culpa quod quis quia corrupti veniam aut facere sed.",
+                "education": "Associates Degree",
+                "children": 2,
+                "smoking": 1,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 42,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Germany",
+                "created_at": {
+                  "date": "2020-04-05 00:41:10",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631353,
+                "submitted_at": null,
+                "monetized_at": 1597631359,
+                "completed_date": "08/16/2020 19:29:13",
+                "submitted_date": null,
+                "monetized_date": "08/16/2020 19:29:19",
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2020-08-07 05:37:47",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 13,
+                    "hash_id": "PVaoGNqxp5a4eygJLX4YE23b",
+                    "path": "matfnydtypjzvcjd",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/matfnydtypjzvcjd.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/matfnydtypjzvcjd.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/matfnydtypjzvcjd.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/matfnydtypjzvcjd.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/matfnydtypjzvcjd.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/matfnydtypjzvcjd.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "x7GBPdRga0r9enK5Q2On6DwW",
+                    "username": "akeebler",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "W8qVmx7XNJVKPXG5KyPw3dg1",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 26,
+                "age_min": 22,
+                "age_max": 70,
+                "income": 102,
+                "net_worth": "US$250,001 - $500,000",
+                "height": "6'5\" (196cm)",
+                "body_type": "Athletic",
+                "eye_color": "Blue",
+                "hair_color": "Dark Brown",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Dolores omnis culpa asperiores nobis et exercitationem nobis ut dolor eligendi omnis impedit voluptates amet et voluptatem magnam ducimus eum maxime nihil iste et nihil architecto eum vitae in facilis iste aut dolorem.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": true,
+                "dating_marriage": false,
+                "dating_married": false,
+                "dating_adult": true,
+                "dating_mentorship": false,
+                "occupation": "Velit non quo illo assumenda.",
+                "description": "Fugit blanditiis suscipit est fugit eum corporis nostrum veniam vel nihil praesentium quas error maxime nihil quas dolor ut aliquid occaecati voluptatum quibusdam recusandae aliquid omnis atque perferendis distinctio necessitatibus ut sit quas.",
+                "education": "Bachelor's Degree",
+                "children": 1,
+                "smoking": 2,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 224,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Rwanda",
+                "created_at": {
+                  "date": "2019-09-13 15:03:24",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631353,
+                "submitted_at": null,
+                "monetized_at": null,
+                "completed_date": "08/16/2020 19:29:13",
+                "submitted_date": null,
+                "monetized_date": null,
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2020-08-16 19:29:04",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 59,
+                    "hash_id": "W8qVmx7XNJVKPXG5KyPw3dg1",
+                    "path": "nrdrj9ps272rvp52",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/nrdrj9ps272rvp52.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/nrdrj9ps272rvp52.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/nrdrj9ps272rvp52.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/nrdrj9ps272rvp52.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/nrdrj9ps272rvp52.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/nrdrj9ps272rvp52.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "W8qVmx7XNJVKPXG5KyPw3dg1",
+                    "username": "alejandrin-leuschke",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "hash_id": "7EgkDdnNPJD9k3Q5Z8XaowWM",
+                "sex": "Female",
+                "gender": "Female",
+                "account_type": "Attractive",
+                "looking_male": true,
+                "looking_female": false,
+                "age": 21,
+                "age_min": 20,
+                "age_max": 44,
+                "income": 103,
+                "net_worth": "US$250,001 - $500,000",
+                "height": "5'2\" (157cm)",
+                "body_type": "Average",
+                "eye_color": "Blue",
+                "hair_color": "Gray",
+                "country": "United States",
+                "region": "Nevada",
+                "city": "Las Vegas",
+                "travel": false,
+                "seeking": "Aut et atque optio qui velit magnam voluptatibus autem optio maiores cupiditate omnis aspernatur asperiores aut repellat inventore natus ad provident ut ut esse perspiciatis fuga quasi ad perferendis id voluptatem molestias ratione sed.",
+                "passport": false,
+                "dating_just_dating": false,
+                "dating_friendship": true,
+                "dating_marriage": false,
+                "dating_married": false,
+                "dating_adult": false,
+                "dating_mentorship": true,
+                "occupation": "Est impedit ex qui nam.",
+                "description": "Vel sed sed iure odio sint rerum officiis dolor corrupti ut ducimus aut officiis voluptates impedit quam doloribus molestias libero nisi nemo voluptatibus at quod nihil est excepturi eum labore deleniti iure quasi tempora quis incidunt libero consectetur minus inventore quia voluptate quas in neque necessitatibus aut illo doloremque sequi aut fugit et sit non.",
+                "education": "High School",
+                "children": 2,
+                "smoking": 2,
+                "drinking": 1,
+                "travel_with_me": false,
+                "travel_to_me": false,
+                "travel_to_you": false,
+                "viewed_count": 132,
+                "photos_count": 1,
+                "private_photos_count": 0,
+                "approved_public_photos_count": 1,
+                "required_fields_completed": false,
+                "online": false,
+                "celebrity": false,
+                "background_check": false,
+                "verifiedbycam": false,
+                "last_login_location": "US",
+                "last_login_location_full": "United States",
+                "last_access_location_full": "Latvia",
+                "created_at": {
+                  "date": "2019-12-12 04:25:08",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "completed_at": 1597631353,
+                "submitted_at": null,
+                "monetized_at": null,
+                "completed_date": "08/16/2020 19:29:13",
+                "submitted_date": null,
+                "monetized_date": null,
+                "is_preapprove": false,
+                "last_activity_dt": null,
+                "last_activity_at": {
+                  "date": "2020-08-16 19:29:04",
+                  "timezone_type": 3,
+                  "timezone": "America/Los_Angeles"
+                },
+                "onboarding_details": [],
+                "avatar": {
+                  "data": {
+                    "id": 15,
+                    "hash_id": "W8qVmx7XNJVKPLG5KyPw3dg1",
+                    "path": "mv4967e4mv9svy7y",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/mv4967e4mv9svy7y.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/mv4967e4mv9svy7y.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/mv4967e4mv9svy7y.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/mv4967e4mv9svy7y.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/mv4967e4mv9svy7y.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/mv4967e4mv9svy7y.jpg"
+                    }
+                  }
+                },
+                "body_types": {
+                  "data": []
+                },
+                "account": {
+                  "data": {
+                    "hash_id": "7EgkDdnNPJD9k3Q5Z8XaowWM",
+                    "username": "gstark",
+                    "is_premium": false,
+                    "is_admin": false,
+                    "has_photo": true,
+                    "is_favorite": null,
+                    "is_blocked": null,
+                    "currency": {
+                      "data": {
+                        "name": "dollar",
+                        "label": "&#36;",
+                        "label_unicode": "36",
+                        "code": "USD",
+                        "initial": ""
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "meta": {
+              "search_query": {
+                "dating_just_dating": false,
+                "dating_friendship": false,
+                "dating_marriage": false,
+                "dating_married": false,
+                "dating_adult": false,
+                "dating_mentorship": false,
+                "online": false,
+                "distance": "50",
+                "has_photo": true,
+                "photos": false,
+                "order": "newest",
+                "page": 1,
+                "per_page": "6",
+                "min_results": "6",
+                "flexibility": "distance",
+                "lat": 36.1699412,
+                "lon": -115.1398296
+              },
+              "debug": {
+                "__meta": {
+                  "id": "X40fe8eb7bf4de93575548c0f289090a1",
+                  "datetime": "2020-09-14 01:28:02",
+                  "utime": 1600072082.558419,
+                  "method": "GET",
+                  "uri": "/api/profile?include=account&page=1&per_page=6&distance=50&order=newest&photos=false&has_photo=true&online=false&age_min=&age_max=&height_min=&height_max=&dating_just_dating=false&dating_friendship=false&dating_marriage=false&dating_sugar=false&dating_married=false&dating_adult=false&dating_mentorship=false&flexibility=distance&min_results=6",
+                  "ip": "127.0.0.1"
+                },
+                "php": {
+                  "version": "7.4.10",
+                  "interface": "fpm-fcgi"
+                },
+                "messages": {
+                  "count": 0,
+                  "messages": []
+                },
+                "time": {
+                  "start": 1600072082.49518,
+                  "end": 1600072082.558443,
+                  "duration": 0.0632631778717041,
+                  "duration_str": "63.26ms",
+                  "measures": [
+                    {
+                      "label": "Booting",
+                      "start": 1600072082.49518,
+                      "relative_start": 0,
+                      "end": 1600072082.533816,
+                      "relative_end": 1600072082.533816,
+                      "duration": 0.038636207580566406,
+                      "duration_str": "38.64ms",
+                      "params": [],
+                      "collector": null
+                    },
+                    {
+                      "label": "Application",
+                      "start": 1600072082.533888,
+                      "relative_start": 0.03870820999145508,
+                      "end": 1600072082.558445,
+                      "relative_end": 0.0000019073486328125,
+                      "duration": 0.024556875228881836,
+                      "duration_str": "24.56ms",
+                      "params": [],
+                      "collector": null
+                    }
+                  ]
+                },
+                "memory": {
+                  "peak_usage": 6480016,
+                  "peak_usage_str": "6.18MB"
+                },
+                "exceptions": {
+                  "count": 0,
+                  "exceptions": []
+                },
+                "views": {
+                  "nb_templates": 0,
+                  "templates": []
+                },
+                "route": {
+                  "uri": "GET api/profile",
+                  "middleware": "api, auth:api, versionCheck, logActiveUser, checkKey, checkForIpChange, checkForCountryChange",
+                  "controller": "App\\Http\\Controllers\\Api\\ProfileController@index",
+                  "namespace": "App\\Http\\Controllers\\Api",
+                  "prefix": "api/profile",
+                  "where": [],
+                  "as": "api.profile.index",
+                  "file": "app/Http/Controllers/Api/ProfileController.php:49-74"
+                },
+                "queries": {
+                  "nb_statements": 4,
+                  "nb_failed_statements": 0,
+                  "accumulated_duration": 0.00524,
+                  "accumulated_duration_str": "5.24ms",
+                  "statements": [
+                    {
+                      "sql": "select * from `account_logs` where `account_logs`.`account_id` = 6 and `account_logs`.`account_id` is not null order by `created_dt` desc, `created_dt` desc limit 1",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00068,
+                      "duration_str": "680μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    },
+                    {
+                      "sql": "insert into `recent_searches` (`filters`, `sort`, `per_page`, `account_id`, `modified_dt`, `created_dt`) values ('{\\\"dating_just_dating\\\":false,\\\"dating_friendship\\\":false,\\\"dating_marriage\\\":false,\\\"dating_married\\\":false,\\\"dating_adult\\\":false,\\\"dating_mentorship\\\":false,\\\"online\\\":false,\\\"distance\\\":\\\"50\\\",\\\"has_photo\\\":true,\\\"photos\\\":false,\\\"order\\\":\\\"newest\\\",\\\"page\\\":1,\\\"per_page\\\":\\\"6\\\",\\\"min_results\\\":\\\"6\\\",\\\"flexibility\\\":\\\"distance\\\",\\\"lat\\\":36.1699412,\\\"lon\\\":-115.1398296,\\\"TypeOfSearch\\\":\\\"SearchMembers\\\"}', 'newest', '6', 6, '2020-09-14 01:28:02', '2020-09-14 01:28:02')",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "{&quot;dating_just_dating&quot;:false,&quot;dating_friendship&quot;:false,&quot;dating_marriage&quot;:false,&quot;dating_married&quot;:false,&quot;dating_adult&quot;:false,&quot;dating_mentorship&quot;:false,&quot;online&quot;:false,&quot;distance&quot;:&quot;50&quot;,&quot;has_photo&quot;:true,&quot;photos&quot;:false,&quot;order&quot;:&quot;newest&quot;,&quot;page&quot;:1,&quot;per_page&quot;:&quot;6&quot;,&quot;min_results&quot;:&quot;6&quot;,&quot;flexibility&quot;:&quot;distance&quot;,&quot;lat&quot;:36.1699412,&quot;lon&quot;:-115.1398296,&quot;TypeOfSearch&quot;:&quot;SearchMembers&quot;}",
+                        "newest",
+                        "6",
+                        "6",
+                        "2020-09-14 01:28:02",
+                        "2020-09-14 01:28:02"
+                      ],
+                      "hints": [],
+                      "backtrace": [],
+                      "duration": 0.00053,
+                      "duration_str": "530μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    },
+                    {
+                      "sql": "select * from `accounts` where `accounts`.`id` in (104829, 104847, 104849, 104886, 104888, 104889) and `suspended` is null",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.0007199999999999999,
+                      "duration_str": "720μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    },
+                    {
+                      "sql": "select * from `photos` where `photos`.`path` in ('6kmatrrr3aw5kjpw', 'matfnydtypjzvcjd', 'mv4967e4mv9svy7y', 'nrdrj9ps272rvp52', 't9tl2la7sdusyk6j') and `photos`.`deleted_dt` is null and `photos`.`status` = 'approved'",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6kmatrrr3aw5kjpw",
+                        "matfnydtypjzvcjd",
+                        "mv4967e4mv9svy7y",
+                        "nrdrj9ps272rvp52",
+                        "t9tl2la7sdusyk6j",
+                        "approved"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00331,
+                      "duration_str": "3.31ms",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    }
+                  ]
+                },
+                "swiftmailer_mails": {
+                  "count": 0,
+                  "mails": []
+                }
+              },
+              "request": {
+                "id": "X40fe8eb7bf4de93575548c0f289090a1",
+                "datetime": "2020-09-14 01:28:02",
+                "utime": 1600072082.558419,
+                "method": "GET",
+                "uri": "/api/profile?include=account&page=1&per_page=6&distance=50&order=newest&photos=false&has_photo=true&online=false&age_min=&age_max=&height_min=&height_max=&dating_just_dating=false&dating_friendship=false&dating_marriage=false&dating_sugar=false&dating_married=false&dating_adult=false&dating_mentorship=false&flexibility=distance&min_results=6",
+                "ip": "127.0.0.1"
+              },
+              "pagination": {
+                "total": 14,
+                "count": 6,
+                "per_page": 6,
+                "current_page": 1,
+                "total_pages": 3,
+                "links": {
+                  "next": "https://api-wyp.test/api/profile/?page=2"
+                }
+              }
+            }
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": "socket_id=7811.19483142&channel_name=private-EldXPk7LxQAzy03RqOp9gWe8"
+        },
+        "response": {
+          "body": {
+            "auth": "a16308869b350ab40622:228bcbbfea40ac16ee87642f04d532422527d9e134874f4d3bcb35f138ad60ef"
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "POST",
+        "status": 204,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": ""
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": {
+            "username": "9d8b0618145b205f10321dd66547f3229a82fd609f71d3b61f906eb35024f376",
+            "ice_servers": [
+              {
+                "url": "stun:global.stun.twilio.com:3478?transport=udp",
+                "urls": "stun:global.stun.twilio.com:3478?transport=udp"
+              },
+              {
+                "url": "turn:global.turn.twilio.com:3478?transport=udp",
+                "username": "9d8b0618145b205f10321dd66547f3229a82fd609f71d3b61f906eb35024f376",
+                "urls": "turn:global.turn.twilio.com:3478?transport=udp",
+                "credential": "GuwmEc/7N7bEQLt9u1HMgKgnkBY5imOWdGnr0WGZcOc="
+              },
+              {
+                "url": "turn:global.turn.twilio.com:3478?transport=tcp",
+                "username": "9d8b0618145b205f10321dd66547f3229a82fd609f71d3b61f906eb35024f376",
+                "urls": "turn:global.turn.twilio.com:3478?transport=tcp",
+                "credential": "GuwmEc/7N7bEQLt9u1HMgKgnkBY5imOWdGnr0WGZcOc="
+              },
+              {
+                "url": "turn:global.turn.twilio.com:443?transport=tcp",
+                "username": "9d8b0618145b205f10321dd66547f3229a82fd609f71d3b61f906eb35024f376",
+                "urls": "turn:global.turn.twilio.com:443?transport=tcp",
+                "credential": "GuwmEc/7N7bEQLt9u1HMgKgnkBY5imOWdGnr0WGZcOc="
+              }
+            ],
+            "date_updated": "Mon, 14 Sep 2020 08:28:03 +0000",
+            "account_sid": "AC1d7a6a5dd9c056eeadbf18d4b888a241",
+            "ttl": "86400",
+            "date_created": "Mon, 14 Sep 2020 08:28:03 +0000",
+            "password": "GuwmEc/7N7bEQLt9u1HMgKgnkBY5imOWdGnr0WGZcOc="
+          }
+        },
+        "matchHostIndex": -1
+      }
+    ]
+  }
+}

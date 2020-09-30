@@ -1,0 +1,414 @@
+{
+  "Login page: Account login should log in user": {
+    "timestamp": "2020-09-29T08:11:10.335Z",
+    "records": [
+      {
+        "url": "",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": ""
+        },
+        "response": {
+          "body": "1d"
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": ""
+        },
+        "response": {
+          "body": "1gcom.sg"
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": {
+            "websocket": true,
+            "origins": [
+              "*:*"
+            ],
+            "cookie_needed": false,
+            "entropy": 3181460047
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "POST",
+        "status": 204,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": ""
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": {
+            "window_width": 375,
+            "window_height": 812,
+            "url": "http://localhost:3000/login",
+            "r_value": 1,
+            "is_vpv": false,
+            "session_only": false,
+            "rec_value": 1,
+            "user_id": "699b6ee7-5797-5e03-b640-216b775c7d2b"
+          }
+        },
+        "response": {
+          "body": {
+            "accept_language": "en-GB,en-US;q=0.9,en;q=0.8",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36",
+            "success": true
+          }
+        },
+        "matchHostIndex": -1
+      },
+      {
+        "url": "/auth/login",
+        "method": "POST",
+        "status": 200,
+        "request": {
+          "body": {
+            "login": "saul@domain.com",
+            "password": "asdasd",
+            "gaClientId": "486210475.1601367064"
+          }
+        },
+        "response": {
+          "body": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpLXd5cC50ZXN0L2FwaS9hdXRoL2xvZ2luIiwiaWF0IjoxNjAxMzY3MDY2LCJleHAiOjE2MDI1NzY2NjYsIm5iZiI6MTYwMTM2NzA2NiwianRpIjoiOUN4cnpUS1E4cG5ySk9ZVCIsInN1YiI6NiwicHJ2IjoiYzhlZTFmYzg5ZTc3NWVjNGM3Mzg2NjdlNWJlMTdhNTkwYjZkNDBmYyIsInVzZXIiOnsiaWQiOjYsImtleSI6ImhDcmFBUU90S0htSmFBeWNVbFFlYWZFSVYyaHpKOHRtIiwidG9rZW5faGFzaCI6ImV5SnBkaUk2SW1jMk1IRjNWbkowUm5kYWVpdFhZWGh6Y1hGaGNIYzlQU0lzSW5aaGJIVmxJam9pWWtzcmVrcFBTV1pxVUdRMWMxVndZVTVDU21nd1QydDBhekF6U0hadE9YaEZlQzlIT1ZWNmNtdzNPRDBpTENKdFlXTWlPaUl5WkRWaE0yWXpNR001WlRZNVlUTTJPRGd3WW1NME5qQTJaRE0xT1RBNVpURTNOVGhpWVRrM016QTVPVFV3WlRCbU4ySTBOMlJoWW1Jd1pXSmpaRGd3SW4wPSIsImhhc2hJZCI6IkVsZFhQazdMeFFBenkwM1JxT3A5Z1dlOCJ9fQ.x3BzorrNGxIkxAk8S_ymHFvNqq-eeSf-SDiq0yaHCUA"
+          }
+        },
+        "matchHostIndex": 0
+      },
+      {
+        "url": "/auth/user?include=profile,photo",
+        "method": "GET",
+        "status": 200,
+        "request": {
+          "body": {}
+        },
+        "response": {
+          "body": {
+            "data": {
+              "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+              "username": "saul",
+              "is_premium": false,
+              "is_admin": false,
+              "has_photo": true,
+              "email": "saul@domain.com",
+              "email_confirmed": true,
+              "unread_messages": 0,
+              "new_favorites": 0,
+              "membership_expires": null,
+              "profile_complete": true,
+              "is_activated": true,
+              "is_approved": true,
+              "credits": 80,
+              "offer_counts": {
+                "total": 0,
+                "new": 0,
+                "pending": 0,
+                "accepted": 0,
+                "rejected": 0
+              },
+              "can_make_offer": true,
+              "needs_account_password": false,
+              "cannot_make_offer_reasons": null,
+              "photo_complete": true,
+              "under_review": [
+                "occupation",
+                "description",
+                "seeking",
+                "photo"
+              ],
+              "direct_s3_upload": true,
+              "recaptchav3_result": null,
+              "currency": {
+                "data": {
+                  "name": "dollar",
+                  "label": "&#36;",
+                  "label_unicode": "36",
+                  "code": "USD",
+                  "initial": ""
+                }
+              },
+              "profile": {
+                "data": {
+                  "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                  "sex": "Male",
+                  "gender": "Male",
+                  "account_type": "Generous",
+                  "looking_male": false,
+                  "looking_female": true,
+                  "age": 28,
+                  "age_min": 20,
+                  "age_max": 42,
+                  "income": 101,
+                  "net_worth": "$50 million - $100 million",
+                  "height": "5'9\" (175cm)",
+                  "body_type": "Athletic",
+                  "eye_color": "Brown",
+                  "hair_color": "Blonde",
+                  "country": "United States",
+                  "region": "Nevada",
+                  "city": "Las Vegas",
+                  "travel": false,
+                  "seeking": "Vel cumque deleniti qui et deserunt itaque quasi deleniti quo similique libero soluta enim doloribus voluptatem ut eius sed asperiores nesciunt et enim id adipisci et et explicabo vero voluptates expedita qui non saepe aspernatur voluptatem similique deleniti mollitia aliquam voluptatum id.",
+                  "passport": false,
+                  "dating_just_dating": true,
+                  "dating_friendship": false,
+                  "dating_marriage": true,
+                  "dating_married": false,
+                  "dating_adult": true,
+                  "dating_mentorship": false,
+                  "occupation": "Quis quam distinctio nam.",
+                  "description": "Culpa et voluptatem atque labore facere suscipit nihil soluta ab ipsum ut ut exercitationem quia rerum qui eum assumenda quibusdam sint nesciunt occaecati voluptas et quas explicabo porro odio dolor officiis et.",
+                  "education": "PhD / Post Doctoral",
+                  "children": 2,
+                  "smoking": 2,
+                  "drinking": 2,
+                  "travel_with_me": false,
+                  "travel_to_me": false,
+                  "travel_to_you": false,
+                  "viewed_count": 37,
+                  "photos_count": 1,
+                  "private_photos_count": 0,
+                  "approved_public_photos_count": 1,
+                  "required_fields_completed": false,
+                  "online": true,
+                  "celebrity": false,
+                  "background_check": false,
+                  "verifiedbycam": false,
+                  "last_login_location": null,
+                  "last_login_location_full": null,
+                  "last_access_location_full": null,
+                  "created_at": {
+                    "date": "2020-04-17 11:20:54",
+                    "timezone_type": 3,
+                    "timezone": "America/Los_Angeles"
+                  },
+                  "completed_at": 1601361039,
+                  "submitted_at": null,
+                  "monetized_at": 1601361133,
+                  "completed_date": "09/28/2020 23:30:39",
+                  "submitted_date": null,
+                  "monetized_date": "09/28/2020 23:32:13",
+                  "is_preapprove": false,
+                  "last_activity_dt": {
+                    "date": "2020-09-29 01:10:06",
+                    "timezone_type": 3,
+                    "timezone": "America/Los_Angeles"
+                  },
+                  "last_activity_at": {
+                    "date": "2020-09-29 01:10:06",
+                    "timezone_type": 3,
+                    "timezone": "America/Los_Angeles"
+                  },
+                  "onboarding_details": [],
+                  "avatar": {
+                    "data": {
+                      "id": 7,
+                      "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                      "path": "hwyp4e6c92jz3yc9",
+                      "status": "approved",
+                      "private": false,
+                      "is_avatar": true,
+                      "urls": {
+                        "resized": "https://devimages.whatsyourprice.com/dev/images/resized/hwyp4e6c92jz3yc9.jpg",
+                        "profile": "https://devimages.whatsyourprice.com/dev/images/profile/hwyp4e6c92jz3yc9.jpg",
+                        "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/hwyp4e6c92jz3yc9.jpg",
+                        "720px": "https://devimages.whatsyourprice.com/dev/images/720px/hwyp4e6c92jz3yc9.jpg",
+                        "410px": "https://devimages.whatsyourprice.com/dev/images/410px/hwyp4e6c92jz3yc9.jpg",
+                        "820px": "https://devimages.whatsyourprice.com/dev/images/820px/hwyp4e6c92jz3yc9.jpg"
+                      },
+                      "created_dt": {
+                        "date": "2020-06-27 18:31:28",
+                        "timezone_type": 3,
+                        "timezone": "America/Los_Angeles"
+                      }
+                    }
+                  },
+                  "body_types": {
+                    "data": []
+                  }
+                }
+              },
+              "photo": {
+                "data": [
+                  {
+                    "id": 7,
+                    "hash_id": "EldXPk7LxQAzy03RqOp9gWe8",
+                    "path": "hwyp4e6c92jz3yc9",
+                    "status": "approved",
+                    "private": false,
+                    "is_avatar": true,
+                    "urls": {
+                      "resized": "https://devimages.whatsyourprice.com/dev/images/resized/hwyp4e6c92jz3yc9.jpg",
+                      "profile": "https://devimages.whatsyourprice.com/dev/images/profile/hwyp4e6c92jz3yc9.jpg",
+                      "thumbs": "https://devimages.whatsyourprice.com/dev/images/thumbs/hwyp4e6c92jz3yc9.jpg",
+                      "720px": "https://devimages.whatsyourprice.com/dev/images/720px/hwyp4e6c92jz3yc9.jpg",
+                      "410px": "https://devimages.whatsyourprice.com/dev/images/410px/hwyp4e6c92jz3yc9.jpg",
+                      "820px": "https://devimages.whatsyourprice.com/dev/images/820px/hwyp4e6c92jz3yc9.jpg"
+                    },
+                    "created_dt": {
+                      "date": "2020-06-27 18:31:28",
+                      "timezone_type": 3,
+                      "timezone": "America/Los_Angeles"
+                    }
+                  }
+                ]
+              }
+            },
+            "meta": {
+              "debug": {
+                "__meta": {
+                  "id": "Xb061f65b473d8b2cf2b6028f9e5d6bb7",
+                  "datetime": "2020-09-29 01:11:08",
+                  "utime": 1601367068.705466,
+                  "method": "GET",
+                  "uri": "/api/auth/user?include=profile,photo",
+                  "ip": "127.0.0.1"
+                },
+                "php": {
+                  "version": "7.4.10",
+                  "interface": "fpm-fcgi"
+                },
+                "messages": {
+                  "count": 0,
+                  "messages": []
+                },
+                "time": {
+                  "start": 1601367067.997949,
+                  "end": 1601367068.705508,
+                  "duration": 0.7075591087341309,
+                  "duration_str": "708ms",
+                  "measures": [
+                    {
+                      "label": "Booting",
+                      "start": 1601367067.997949,
+                      "relative_start": 0,
+                      "end": 1601367068.379884,
+                      "relative_end": 1601367068.379884,
+                      "duration": 0.38193511962890625,
+                      "duration_str": "382ms",
+                      "params": [],
+                      "collector": null
+                    },
+                    {
+                      "label": "Application",
+                      "start": 1601367068.379965,
+                      "relative_start": 0.3820161819458008,
+                      "end": 1601367068.705514,
+                      "relative_end": 0.0000059604644775390625,
+                      "duration": 0.3255488872528076,
+                      "duration_str": "326ms",
+                      "params": [],
+                      "collector": null
+                    }
+                  ]
+                },
+                "memory": {
+                  "peak_usage": 6587752,
+                  "peak_usage_str": "6MB"
+                },
+                "exceptions": {
+                  "count": 0,
+                  "exceptions": []
+                },
+                "views": {
+                  "nb_templates": 0,
+                  "templates": []
+                },
+                "route": {
+                  "uri": "GET api/auth/user",
+                  "middleware": "api, auth:api, logActiveUser, checkKey, checkForIpChange, versionCheck",
+                  "controller": "App\\Http\\Controllers\\Api\\Auth\\AuthController@user",
+                  "namespace": "App\\Http\\Controllers\\Api\\Auth",
+                  "prefix": "api/auth",
+                  "where": [],
+                  "as": "api.auth.user",
+                  "file": "app/Http/Controllers/Api/Auth/AuthController.php:490-497"
+                },
+                "queries": {
+                  "nb_statements": 1,
+                  "nb_failed_statements": 0,
+                  "accumulated_duration": 0.00065,
+                  "accumulated_duration_str": "650μs",
+                  "statements": [
+                    {
+                      "sql": "select * from `account_logs` where `account_logs`.`account_id` = 6 and `account_logs`.`account_id` is not null order by `created_dt` desc, `created_dt` desc limit 1",
+                      "type": "query",
+                      "params": [],
+                      "bindings": [
+                        "6"
+                      ],
+                      "hints": [
+                        "Use <code>SELECT *</code> only if you need all columns from table"
+                      ],
+                      "backtrace": [],
+                      "duration": 0.00065,
+                      "duration_str": "650μs",
+                      "stmt_id": "",
+                      "connection": "wyp"
+                    }
+                  ]
+                },
+                "models": {
+                  "data": {
+                    "App\\Models\\AccountLog": 1
+                  },
+                  "count": 1
+                },
+                "swiftmailer_mails": {
+                  "count": 0,
+                  "mails": []
+                }
+              },
+              "request": {
+                "id": "Xb061f65b473d8b2cf2b6028f9e5d6bb7",
+                "datetime": "2020-09-29 01:11:08",
+                "utime": 1601367068.705466,
+                "method": "GET",
+                "uri": "/api/auth/user?include=profile,photo",
+                "ip": "127.0.0.1"
+              }
+            }
+          }
+        },
+        "matchHostIndex": 0
+      },
+      {
+        "url": "",
+        "method": "get",
+        "status": 200,
+        "request": {
+          "body": null
+        },
+        "response": {
+          "body": "/*\n * Welcome to your Workbox-powered service worker!\n *\n * You'll need to register this file in your web app and you should\n * disable HTTP caching for this file too.\n * See https://goo.gl/nhQhGp\n *\n * The rest of the code is auto-generated. Please don't update this file\n * directly; instead, make changes to your Workbox build configuration\n * and re-run your build process.\n * See https://goo.gl/2aRDsh\n */\nimportScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');\n\nworkbox.core.skipWaiting();\nworkbox.core.clientsClaim();\n\n/**\n * The workboxSW.precacheAndRoute() method efficiently caches and responds to\n * requests for URLs in the manifest.\n * See https://goo.gl/S9QRab\n */\n\n// added cache of index.html to lessen initial load on PWA\nself.addEventListener('install', function(e) {\n  const filesToCache = ['/index.html'];\n  const cacheName = 'app-cache';\n  e.waitUntil(\n    caches.open(cacheName).then(function(cache) {\n      return cache.addAll(filesToCache);\n    })\n  );\n});\n\n// @TODO: Check potential use of activate event\n// self.addEventListener('activate', event => {\n//   console.log('[ServiceWorker] V1 now ready to handle fetches!');\n// });\n\nworkbox.routing.registerRoute(\n  new RegExp('/|jpg|jpeg|png|html|js|css|woff|woff2|ttf'),\n  new workbox.strategies.StaleWhileRevalidate({\n    cacheName: 'app-cache',\n  })\n);\n\nworkbox.routing.registerRoute(({ url }) => url.pathname.indexOf('/api/') > -1, new workbox.strategies.NetworkFirst());\n\n// catch offline api calls through service worker\nself.addEventListener('fetch', event => {\n  if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin') {\n    return;\n  }\n  if (event.request.method === 'POST' || event.request.method === 'DELETE') {\n    event.respondWith(\n      fetch(event.request).catch(err => {\n        console.error('REQUEST FAILED: Service worker response', err);\n      })\n    );\n  }\n});\n\nself.__precacheManifest = [].concat(self.__precacheManifest || []);\nworkbox.precaching.precacheAndRoute(self.__precacheManifest || []);\n\nconst responseParser = response => {\n  const type = response.type;\n  const action = response.action;\n  const data =\n    typeof response.data === 'string' && response.data.length > 0 ? JSON.parse(response.data) : response.data;\n\n  const getTitle = () => {\n    if (data.profile.gender === 'Male') {\n      return 'him';\n    }\n\n    return 'her';\n  };\n\n  const getPronoun = () => {\n    if (data.profile.gender === 'Male') {\n      return 'He';\n    }\n\n    return 'She';\n  };\n\n  const getMailAction = () => {\n    if (data.profile.gender === 'Male') {\n      return 'Your turn';\n    }\n\n    return \"That's what she said\";\n  };\n\n  const getOfferAction = () => {\n    if (data.profile.account_type === 'Generous') {\n      return 'Send a message';\n    }\n\n    return 'Unlock the conversation';\n  };\n\n  const getOfferNotification = () => {\n    const isGenerous = data.profile.account_type === 'Generous';\n    const userName = data.account.username;\n    switch (action) {\n      case 'receive':\n        return {\n          label: `${userName} sent you ${!isGenerous ? 'a request' : 'an offer'}!`,\n          action: 'Check it out',\n          link: `/profile/${data.account.hash_id}`,\n        };\n      case 'suggest':\n        return {\n          label: `${getPronoun()}'s interested!`,\n          action: `Check ${getTitle()} out`,\n          link: `/profile/${data.account.hash_id}`,\n        };\n      case 'accept':\n        return {\n          label: `${!isGenerous ? 'Offer' : 'Request'} Accepted!`,\n          action: getOfferAction(),\n          link: `/mail/${data.account.hash_id}`,\n        };\n    }\n  };\n\n  const getMailNotification = () => {\n    switch (action) {\n      case 'receive':\n        return {\n          label: 'New message!',\n          action: getMailAction(),\n          link: `/mail/${data.account.hash_id}`,\n        };\n      case 'unlock':\n        return {\n          label: 'Conversation Unlocked!',\n          action: 'Send a message',\n          link: `/mail/${data.account.hash_id}`,\n        };\n    }\n  };\n\n  const getFavoritedNotification = () => {\n    switch (action) {\n      case 'receive':\n        return {\n          label: `You've been favorited!`,\n          action: `Check ${getTitle()} out`,\n          link: `/profile/${data.account.hash_id}`,\n        };\n      default:\n        break;\n    }\n  };\n\n  const getWelcomeNotification = () => {\n    return {\n      label: 'Subscribed to Push Notifications',\n      action: 'You can disable this in the settings',\n      link: `/dashboard`,\n    };\n  };\n\n  switch (type) {\n    case 'favorites':\n      return getFavoritedNotification();\n    case 'offers':\n      return getOfferNotification();\n    case 'mail':\n      return getMailNotification();\n    case 'welcome':\n      return getWelcomeNotification();\n    default:\n      return null;\n  }\n};\n\n/*\nconst allowedDesktopNotificationTypes = ['mail'];\n\nself.addEventListener('message', function(event) {\n  const { title, message, link } = event.data;\n\n  if (event.data && event.data.type === 'SKIP_WAITING') {\n    self.skipWaiting();\n  }\n\n  self.registration.showNotification(title, {\n    body: message,\n    icon: 'https://dwytm1vo3v31f.cloudfront.net/icons/favicon.ico',\n    data: {\n      link,\n    },\n  });\n});\n*/\n\nself.addEventListener('notificationclick', function(event) {\n  event.notification.close();\n  const urlToOpen = new URL(event.notification.data.link, self.location.origin);\n  const promiseChain = clients\n    .matchAll({\n      type: 'window',\n      includeUncontrolled: true,\n    })\n    .then(windowClients => {\n      let matchingClient = null;\n\n      for (let i = 0; i < windowClients.length; i++) {\n        const windowClient = windowClients[i];\n        const windowClientOrigin = new URL(windowClients[i], self.location.origin).origin;\n        if (windowClientOrigin === urlToOpen.origin) {\n          matchingClient = windowClient;\n          break;\n        }\n      }\n\n      if (matchingClient) {\n        // For now, focus on same tab dashboard, push having issues if starting from other pages\n        // because service worker registration is not called other than main screen\n        return matchingClient.focus();\n\n        // @TODO: research for a fix on calling service worker registration on other pages\n        // return matchingClient.focus().then(client => client.navigate(urlToOpen.href));\n      } else {\n        return clients.openWindow(urlToOpen.origin);\n      }\n    });\n\n  event.waitUntil(promiseChain);\n});\n\nself.addEventListener('push', event => {\n  return clients.matchAll({ type: 'window' }).then(clients => {\n    for (let i = 0; i < clients.length; ++i) {\n      if (clients[i].visibilityState === 'visible') return; // there is a visible window\n    }\n\n    // continue with showing a notification\n    if (event.data) {\n      const eventJsonData = event.data.json();\n      const responseData = responseParser(eventJsonData);\n      const siteIcon =\n        eventJsonData.site_id && eventJsonData.site_id === 'fd'\n          ? 'https://s3.amazonaws.com/whatsyourprice/prod/fd/images/icons/FD_favicon_32x32.png'\n          : 'https://dwytm1vo3v31f.cloudfront.net/icons/favicon.ico';\n      if (responseData) {\n        const promiseChain = self.registration\n          .showNotification(responseData.label, {\n            icon: siteIcon,\n            body: responseData.action,\n            tag: `notify-user-${Math.floor(Math.random() * 999)}`,\n            data: {\n              link: responseData.link,\n            },\n          })\n          .then(() => {\n            console.log('Notification Success');\n          })\n          .catch(error => {\n            console.log('Something went wrong', error);\n          });\n        event.waitUntil(promiseChain);\n      }\n    }\n  });\n});\n"
+        },
+        "matchHostIndex": -1
+      }
+    ]
+  }
+}
